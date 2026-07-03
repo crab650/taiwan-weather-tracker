@@ -23,18 +23,17 @@ if [ ! -d ".git" ]; then
     exit 0
 fi
 
-# 3. Check if data/weather.json has changed
-# git status --porcelain will show "M data/weather.json" if modified
-STATUS=$(git status --porcelain data/weather.json)
+# 3. Check if data/ folder has changed
+STATUS=$(git status --porcelain data/)
 
 if [ -n "$STATUS" ]; then
-    echo "[*] Changes detected in weather.json. Preparing to commit..."
+    echo "[*] Changes detected in weather data. Preparing to commit..."
     
-    # Stage the file
-    git add data/weather.json
+    # Stage the weather data and the updated README
+    git add data/ README.md
     
     # Commit with local timestamp
-    git commit -m "Auto-update weather data: $(date +'%Y-%m-%d %H:%M:%S')"
+    git commit -m "Auto-update weather data and README: $(date +'%Y-%m-%d %H:%M:%S')"
     
     # Push to remote (usually origin main)
     # Note: Assumes SSH key or credential helper is configured on PythonAnywhere

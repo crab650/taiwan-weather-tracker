@@ -148,15 +148,163 @@ def parse_forecast_36h(raw_data, now):
     }
 
 
+def update_readme_and_split_jsons(old_data, new_data, data_dir, script_dir):
+    """Save individual county JSON files and update README.md with changes and forecast table."""
+    # 1. Save split JSON files by county
+    counties_dir = Path(data_dir) / "counties"
+    counties_dir.mkdir(parents=True, exist_ok=True)
+    
+    for loc_name, slots in new_data["locations"].items():
+        county_file = counties_dir / f"{loc_name}.json"
+        try:
+            county_data = {
+                "location": loc_name,
+                "updated_at": new_data["updated_at"],
+                "forecast": slots
+            }
+            with open(county_file, 'w', encoding='utf-8') as f:
+                json.dump(county_data, f, indent=2, ensure_ascii=False)
+        except Exception as e:
+            print(f"[!] Failed to save split JSON for {loc_name}: {e}")
+            
+    print(f"[+] Saved {len(new_data['locations'])} individual county JSON files in: {counties_dir}")
+
+    # 2. Compare data to previous run (index 0 represent the most immediate time slot)
+    changes = []
+    if old_data and "locations" in old_data:
+        old_locs = old_data["locations"]
+        new_locs = new_data["locations"]
+        
+        for loc_name, new_slots in new_locs.items():
+            if loc_name in old_locs and len(new_slots) > 0 and len(old_locs[loc_name]) > 0:
+                old_slot = old_locs[loc_name][0]
+                new_slot = new_slots[0]
+                
+                loc_changes = []
+                
+                # Weather phenomenon
+                if old_slot.get("weather_phenomenon") != new_slot.get("weather_phenomenon"):
+                    loc_changes.append(f"天氣現象由「{old_slot.get('weather_phenomenon')}」轉為「{new_slot.get('weather_phenomenon')}」")
+                
+                # Rain probability
+                try:
+                    old_pop = int(old_slot.get("rain_probability", 0))
+                    new_pop = int(new_slot.get("rain_probability", 0))
+                    if old_pop != new_pop:
+                        diff = new_pop - old_pop
+                        sign = "+" if diff > 0 else ""
+                        loc_changes.append(f"降雨機率 {old_pop}% → {new_pop}% ({sign}{diff}%)")
+                except Exception:
+                    pass
+                
+                # Temperatures
+                try:
+                    old_min = int(old_slot.get("min_temp", 0))
+                    new_min = int(new_slot.get("min_temp", 0))
+                    old_max = int(old_slot.get("max_temp", 0))
+                    new_max = int(new_slot.get("max_temp", 0))
+                    
+                    temp_change = []
+                    if old_min != new_min:
+                        diff = new_min - old_min
+                        sign = "+" if diff > 0 else ""
+                        temp_change.append(f"最低溫 ({sign}{diff}°C)")
+                    if old_max != new_max:
+                        diff = new_max - old_max
+                        sign = "+" if diff > 0 else ""
+                        temp_change.append(f"最高溫 ({sign}{diff}°C)")
+                    if temp_change:
+                        loc_changes.append("、".join(temp_change))
+                except Exception:
+                    pass
+                
+                if loc_changes:
+                    changes.append(f"* **{loc_name}**：{', '.join(loc_changes)}")
+                    
+    # 3. Generate Markdown Content
+    md_content = []
+    
+    # Header & timestamp
+    updated_dt = datetime.datetime.fromisoformat(new_data["updated_at"])
+    formatted_time = updated_dt.strftime("%Y-%m-%d %H:%M:%S")
+    md_content.append(f"**⏰ 最後更新時間 (台北時間)**: `{formatted_time}`\n")
+    
+    # Changes section
+    md_content.append("### 📢 天氣變動提醒 (與前次更新相比)")
+    if changes:
+        md_content.extend(changes)
+    else:
+        md_content.append("*氣象預報與前次相比無變動。*")
+    md_content.append("")
+    
+    # Table section
+    md_content.append("### 🗺️ 各縣市即時預報快照 (最接近時段)")
+    md_content.append("| 縣市 | 預報時間段 | 天氣狀態 | 溫度範圍 | 降雨機率 | 舒適度 |")
+    md_content.append("| :--- | :--- | :--- | :--- | :--- | :--- |")
+    
+    for loc_name, slots in new_data["locations"].items():
+        if slots:
+            s = slots[0]
+            start_t = s.get("start_time")
+            end_t = s.get("end_time")
+            # Format: "07-03 18:00 ~ 06:00"
+            time_range = f"{start_t[5:10]} {start_t[11:16]} ~ {end_t[11:16]}"
+            md_content.append(
+                f"| {loc_name} | {time_range} | {s.get('weather_phenomenon')} | {s.get('min_temp')}°C ~ {s.get('max_temp')}°C | {s.get('rain_probability')}% | {s.get('comfort_index')} |"
+            )
+            
+    md_block = "\n".join(md_content)
+    
+    # 4. Read README.md and replace content between markers
+    readme_path = Path(script_dir) / "README.md"
+    if readme_path.exists():
+        try:
+            with open(readme_path, 'r', encoding='utf-8') as f:
+                readme_text = f.read()
+                
+            start_marker = "<!-- WEATHER_START -->"
+            end_marker = "<!-- WEATHER_END -->"
+            
+            if start_marker in readme_text and end_marker in readme_text:
+                parts = readme_text.split(start_marker)
+                before = parts[0]
+                after = parts[1].split(end_marker)[1]
+                
+                new_readme = f"{before}{start_marker}\n\n{md_block}\n\n{end_marker}{after}"
+                
+                with open(readme_path, 'w', encoding='utf-8') as f:
+                    f.write(new_readme)
+                print("[+] README.md has been automatically updated with the latest weather info.")
+            else:
+                print("[!] Warning: WEATHER markers not found in README.md. Skipping README update.")
+        except Exception as e:
+            print(f"[!] Failed to update README.md: {e}")
+
 def save_weather_json(summary, data_dir):
+    """Save simplified summary JSON as a single weather.json file, then update split files and README.md."""
     data_dir.mkdir(parents=True, exist_ok=True)
-
     weather_file = data_dir / "weather.json"
-
-    with open(weather_file, "w", encoding="utf-8") as f:
-        json.dump(summary, f, indent=2, ensure_ascii=False)
-
-    print(f"[+] Weather JSON updated: {weather_file}")
+    
+    # 1. Read old data if it exists to compare later
+    old_data = None
+    if weather_file.exists():
+        try:
+            with open(weather_file, 'r', encoding='utf-8') as f:
+                old_data = json.load(f)
+        except Exception:
+            pass
+            
+    # 2. Write new data
+    try:
+        with open(weather_file, 'w', encoding='utf-8') as f:
+            json.dump(summary, f, indent=2, ensure_ascii=False)
+        print(f"[+] Weather JSON updated: {weather_file}")
+        
+        # 3. Save split county files and update README.md
+        update_readme_and_split_jsons(old_data, summary, data_dir, SCRIPT_DIR)
+        
+    except Exception as e:
+        print(f"[!] Failed to save weather JSON: {e}")
 
 
 def main():
