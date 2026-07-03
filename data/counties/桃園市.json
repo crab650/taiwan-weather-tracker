@@ -1,15 +1,15 @@
 {
   "location": "桃園市",
-  "updated_at": "2026-07-03T22:18:12.130521+08:00",
+  "updated_at": "2026-07-03T23:18:09.055981+08:00",
   "forecast": [
     {
-      "start_time": "2026-07-03 18:00:00",
+      "start_time": "2026-07-04 00:00:00",
       "end_time": "2026-07-04 06:00:00",
-      "weather_phenomenon": "多雲短暫陣雨或雷雨",
-      "weather_code": "15",
-      "rain_probability": "30",
+      "weather_phenomenon": "晴時多雲",
+      "weather_code": "2",
+      "rain_probability": "10",
       "min_temp": "27",
-      "max_temp": "32",
+      "max_temp": "29",
       "comfort_index": "舒適至悶熱"
     },
     {
