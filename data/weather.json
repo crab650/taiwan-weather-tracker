@@ -1,7 +1,7 @@
 {
   "dataset_id": "F-C0032-001",
   "title": "台灣今明36小時天氣預報",
-  "updated_at": "2026-07-03T11:38:55.968201+08:00",
+  "updated_at": "2026-07-03T11:42:52.453811+08:00",
   "location_count": 22,
   "locations": {
     "嘉義縣": [
@@ -50,9 +50,9 @@
       {
         "start_time": "2026-07-03 18:00:00",
         "end_time": "2026-07-04 06:00:00",
-        "weather_phenomenon": "晴時多雲",
-        "weather_code": "2",
-        "rain_probability": "20",
+        "weather_phenomenon": "多雲短暫陣雨",
+        "weather_code": "8",
+        "rain_probability": "30",
         "min_temp": "27",
         "max_temp": "32",
         "comfort_index": "舒適至悶熱"
@@ -244,7 +244,7 @@
         "end_time": "2026-07-04 06:00:00",
         "weather_phenomenon": "晴時多雲",
         "weather_code": "2",
-        "rain_probability": "10",
+        "rain_probability": "20",
         "min_temp": "26",
         "max_temp": "31",
         "comfort_index": "舒適至悶熱"
@@ -306,9 +306,9 @@
       {
         "start_time": "2026-07-03 18:00:00",
         "end_time": "2026-07-04 06:00:00",
-        "weather_phenomenon": "多雲短暫陣雨",
-        "weather_code": "8",
-        "rain_probability": "30",
+        "weather_phenomenon": "晴時多雲",
+        "weather_code": "2",
+        "rain_probability": "20",
         "min_temp": "26",
         "max_temp": "31",
         "comfort_index": "舒適至悶熱"
@@ -370,9 +370,9 @@
       {
         "start_time": "2026-07-03 18:00:00",
         "end_time": "2026-07-04 06:00:00",
-        "weather_phenomenon": "多雲短暫陣雨",
-        "weather_code": "8",
-        "rain_probability": "30",
+        "weather_phenomenon": "晴時多雲",
+        "weather_code": "2",
+        "rain_probability": "20",
         "min_temp": "27",
         "max_temp": "32",
         "comfort_index": "舒適至悶熱"
@@ -466,9 +466,9 @@
       {
         "start_time": "2026-07-03 18:00:00",
         "end_time": "2026-07-04 06:00:00",
-        "weather_phenomenon": "多雲短暫陣雨",
-        "weather_code": "8",
-        "rain_probability": "30",
+        "weather_phenomenon": "晴時多雲",
+        "weather_code": "2",
+        "rain_probability": "20",
         "min_temp": "26",
         "max_temp": "31",
         "comfort_index": "舒適至悶熱"
@@ -500,7 +500,7 @@
         "end_time": "2026-07-04 06:00:00",
         "weather_phenomenon": "晴時多雲",
         "weather_code": "2",
-        "rain_probability": "20",
+        "rain_probability": "10",
         "min_temp": "28",
         "max_temp": "32",
         "comfort_index": "悶熱"
@@ -564,7 +564,7 @@
         "end_time": "2026-07-04 06:00:00",
         "weather_phenomenon": "晴時多雲",
         "weather_code": "2",
-        "rain_probability": "20",
+        "rain_probability": "10",
         "min_temp": "27",
         "max_temp": "32",
         "comfort_index": "舒適至悶熱"
