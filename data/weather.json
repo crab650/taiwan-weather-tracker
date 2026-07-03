@@ -1,7 +1,7 @@
 {
   "dataset_id": "F-C0032-001",
   "title": "台灣今明36小時天氣預報",
-  "updated_at": "2026-07-03T11:18:11.392303+08:00",
+  "updated_at": "2026-07-03T11:38:55.968201+08:00",
   "location_count": 22,
   "locations": {
     "嘉義縣": [
@@ -40,9 +40,9 @@
       {
         "start_time": "2026-07-03 12:00:00",
         "end_time": "2026-07-03 18:00:00",
-        "weather_phenomenon": "多雲",
-        "weather_code": "4",
-        "rain_probability": "20",
+        "weather_phenomenon": "多雲午後短暫雷陣雨",
+        "weather_code": "22",
+        "rain_probability": "30",
         "min_temp": "32",
         "max_temp": "35",
         "comfort_index": "悶熱至易中暑"
@@ -60,9 +60,9 @@
       {
         "start_time": "2026-07-04 06:00:00",
         "end_time": "2026-07-04 18:00:00",
-        "weather_phenomenon": "晴時多雲",
-        "weather_code": "2",
-        "rain_probability": "20",
+        "weather_phenomenon": "晴午後短暫雷陣雨",
+        "weather_code": "21",
+        "rain_probability": "30",
         "min_temp": "27",
         "max_temp": "35",
         "comfort_index": "舒適至易中暑"
@@ -296,9 +296,9 @@
       {
         "start_time": "2026-07-03 12:00:00",
         "end_time": "2026-07-03 18:00:00",
-        "weather_phenomenon": "晴時多雲",
-        "weather_code": "2",
-        "rain_probability": "20",
+        "weather_phenomenon": "晴午後短暫雷陣雨",
+        "weather_code": "21",
+        "rain_probability": "30",
         "min_temp": "31",
         "max_temp": "35",
         "comfort_index": "悶熱至易中暑"
@@ -444,9 +444,9 @@
       {
         "start_time": "2026-07-04 06:00:00",
         "end_time": "2026-07-04 18:00:00",
-        "weather_phenomenon": "晴時多雲",
-        "weather_code": "2",
-        "rain_probability": "20",
+        "weather_phenomenon": "晴午後短暫雷陣雨",
+        "weather_code": "21",
+        "rain_probability": "30",
         "min_temp": "27",
         "max_temp": "35",
         "comfort_index": "舒適至易中暑"
@@ -584,9 +584,9 @@
       {
         "start_time": "2026-07-03 12:00:00",
         "end_time": "2026-07-03 18:00:00",
-        "weather_phenomenon": "多雲",
-        "weather_code": "4",
-        "rain_probability": "20",
+        "weather_phenomenon": "多雲午後短暫雷陣雨",
+        "weather_code": "22",
+        "rain_probability": "30",
         "min_temp": "30",
         "max_temp": "33",
         "comfort_index": "悶熱至易中暑"

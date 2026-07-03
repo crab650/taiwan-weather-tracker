@@ -1,13 +1,13 @@
 {
   "location": "基隆市",
-  "updated_at": "2026-07-03T11:34:57.691220+08:00",
+  "updated_at": "2026-07-03T11:38:55.968201+08:00",
   "forecast": [
     {
       "start_time": "2026-07-03 12:00:00",
       "end_time": "2026-07-03 18:00:00",
-      "weather_phenomenon": "多雲",
-      "weather_code": "4",
-      "rain_probability": "20",
+      "weather_phenomenon": "多雲午後短暫雷陣雨",
+      "weather_code": "22",
+      "rain_probability": "30",
       "min_temp": "30",
       "max_temp": "33",
       "comfort_index": "悶熱至易中暑"
