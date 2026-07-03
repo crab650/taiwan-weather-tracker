@@ -1,0 +1,135 @@
+# 台灣氣象追蹤器 | Taiwan Weather Tracker 🌧️☀️
+
+這是一個設計用來從 **中華民國交通部中央氣象署 (CWA) 開放資料平台** 自動抓取每日天氣預報資料，並將其保存為 JSON 格式的 Python 專案。
+
+為了配合 GitHub 版本控管，本專案採用**極簡單一檔案設計**。每次抓取時，資料會自動被扁平化解析並**覆蓋儲存於單一檔案 `data/weather.json` 中**。只要將該檔案定期提交（Commit）上傳至 GitHub，您就可以透過 **Git 的 Commit 歷史紀錄** 自動進行長期的天氣歷史版本管理，而不會讓專案目錄堆積成百上千個檔案！
+
+專案同時附帶一個**極具質感、具備毛玻璃（Glassmorphism）特效的網頁儀表板**，方便您即時預覽與過濾各縣市的天氣狀況。
+
+---
+
+## 📂 專案檔案結構
+
+*   `weather_tracker.py` - 核心 Python 腳本（負責抓取、解析、儲存資料，並內建 Dashboard 本地伺服器）。
+*   `cwa_crawler_pa.py` - 專為 **PythonAnywhere** 任務排程器設計的無 UI 輕量爬蟲。
+*   `config.json` - 設定檔（包含 API 金鑰、要抓取的資料集代號、伺服器連接埠等）。
+*   `index.html` - 網頁儀表板主頁面。
+*   `style.css` - 網頁儀表板樣式檔（採用現代暗黑毛玻璃美學設計）。
+*   `app.js` - 網頁儀表板邏輯（解析簡化版 JSON、縣市區域分類、自訂 SVG 氣象圖示）。
+*   `run_tracker.bat` - Windows 專用雙擊啟動選單，操作直覺免打指令。
+*   `run_pa_test.bat` - Windows 專用 PythonAnywhere 版本爬蟲的測試批次檔。
+*   `data/` - 自動生成的資料儲存目錄：
+    *   `weather.json` - 唯一產出的天氣預報簡化資料包（儀表板資料源與 Git 歷史追蹤對象）。
+
+---
+
+## 🛠️ 開始使用與設定
+
+### 步驟 1：取得中央氣象署 API 授權碼（免費）
+
+1.  造訪 [氣象資料開放平臺](https://opendata.cwa.gov.tw/)。
+2.  註冊並登入您的會員帳號。
+3.  進入「會員專區」 ➔ 點選「**API 授權碼**」 ➔ 按下「**取得授權碼**」並複製該代碼（格式通常為 `CWA-XXXX...`）。
+
+### 步驟 2：初始化與配置
+
+1.  **自動生成設定檔**：在專案根目錄下，開啟終端機執行：
+    ```bash
+    python weather_tracker.py --setup
+    ```
+    （或者直接雙擊執行 `run_tracker.bat`，程式會自動為您建立一個預設的 `config.json`）。
+2.  **填入 API Key**：使用文字編輯器打開 `config.json`，將 `cwa_api_key` 中的 `"YOUR_CWA_API_KEY_HERE"` 替換為剛才複製的 API 授權碼：
+    ```json
+    {
+        "cwa_api_key": "CWA-你的授權碼填在這裡",
+        "output_dir": "data",
+        "datasets": ["F-C0032-001"],
+        "server_port": 8000
+    }
+    ```
+
+---
+
+## 🚀 執行程式
+
+您可以透過以下兩種方式之一來運行本專案：
+
+### 方法 A：使用 Windows 互動選單（推薦 Windows 使用者）
+在專案根目錄下雙擊 `run_tracker.bat` 檔案，將會彈出一個控制台選單：
+- 輸入 `1`：執行氣象資料抓取。
+- 輸入 `2`：啟動本地伺服器並自動在瀏覽器中打開網頁儀表板。
+- 輸入 `3`：同時執行抓取並立即打開儀表板。
+- 輸入 `4`：結束退出。
+
+### 方法 B：使用 Python 命令行指令
+如果您習慣在終端機操作：
+
+*   **抓取最新氣象資料並儲存**：
+    ```bash
+    python weather_tracker.py --fetch
+    ```
+*   **啟動儀表板伺服器**：
+    ```bash
+    python weather_tracker.py --serve
+    ```
+    *啟動後，開啟瀏覽器造訪 [http://localhost:8000/index.html](http://localhost:8000/index.html) 即可檢視視覺化面板。*
+*   **自訂連接埠或指定資料集**：
+    ```bash
+    python weather_tracker.py --fetch --dataset F-C0032-001 --serve --port 8080
+    ```
+
+---
+
+## 💾 JSON 資料保存格式說明
+
+抓取成功後，會在 `data/` 下產出唯一一個 JSON：
+
+### 解析後扁平化預報 (weather.json)
+*   **路徑**：`data/weather.json`。
+*   **格式範例**：
+    ```json
+    {
+      "dataset_id": "F-C0032-001",
+      "title": "台灣今明36小時天氣預報",
+      "updated_at": "2026-07-03T08:26:00+08:00",
+      "locations": {
+        "臺北市": [
+          {
+            "start_time": "2026-07-03 18:00:00",
+            "end_time": "2026-07-04 06:00:00",
+            "weather_phenomenon": "多雲時陰短暫雨",
+            "weather_code": "08",
+            "rain_probability": "30",
+            "min_temp": "19",
+            "max_temp": "24",
+            "comfort_index": "舒適"
+          },
+          { "start_time": "2026-07-04 06:00:00", ... },
+          { "start_time": "2026-07-04 18:00:00", ... }
+        ]
+      }
+    }
+    ```
+
+---
+
+## ⏰ 如何實現「每日自動抓取與保存」
+
+為了讓系統每天自動抓取並儲存當日的天氣資料，您可以使用 Windows 內建的「**工作排程器**」來實施自動化：
+
+### Windows 排程設定教學
+1.  按 `Win + R` 鍵，輸入 `taskschd.msc` 並按下 Enter，打開「**工作排程器**」。
+2.  在右側動作面板點選「**建立基本工作**」。
+3.  **名稱**輸入：`台灣天氣每日自動抓取`。
+4.  **觸發程序**選擇「**每日**」，並設定您希望抓取的時間（例如：每天早上 `07:30`）。
+5.  **動作**選擇「**啟動程式**」。
+6.  **程式或指令碼**欄位輸入 `python`。
+7.  **新增引數 (選填)** 欄位輸入：
+    ```text
+    weather_tracker.py --fetch
+    ```
+8.  **開始目錄 (選填)** 欄位輸入本專案所在的絕對路徑，例如：
+    ```text
+    D:\AI\taiwan-weather-tracker
+    ```
+9.  點選「**完成**」。之後系統就會在每天指定的時間點自動背景執行抓取並落實 JSON 保存！

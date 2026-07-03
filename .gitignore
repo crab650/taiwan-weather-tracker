@@ -1,0 +1,22 @@
+# Taiwan Weather Tracker - Git Ignore Configuration
+
+# Ignore private configuration files (prevents API key leaks)
+config.json
+
+# Ignore Python cache and runtime files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Ignore local log files and temporary files
+*.log
+null
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# IDE settings
+.vscode/
+.idea/
