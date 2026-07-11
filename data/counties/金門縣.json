@@ -1,17 +1,7 @@
 {
   "location": "金門縣",
-  "updated_at": "2026-07-11T16:18:09.861445+08:00",
+  "updated_at": "2026-07-11T17:18:11.323272+08:00",
   "forecast": [
-    {
-      "start_time": "2026-07-11 12:00:00",
-      "end_time": "2026-07-11 18:00:00",
-      "weather_phenomenon": "陰天",
-      "weather_code": "7",
-      "rain_probability": "10",
-      "min_temp": "32",
-      "max_temp": "36",
-      "comfort_index": "悶熱至易中暑"
-    },
     {
       "start_time": "2026-07-11 18:00:00",
       "end_time": "2026-07-12 06:00:00",
@@ -19,18 +9,28 @@
       "weather_code": "17",
       "rain_probability": "30",
       "min_temp": "29",
-      "max_temp": "32",
+      "max_temp": "30",
       "comfort_index": "悶熱"
     },
     {
       "start_time": "2026-07-12 06:00:00",
       "end_time": "2026-07-12 18:00:00",
-      "weather_phenomenon": "多雲時陰",
-      "weather_code": "5",
-      "rain_probability": "10",
-      "min_temp": "30",
+      "weather_phenomenon": "多雲",
+      "weather_code": "4",
+      "rain_probability": "20",
+      "min_temp": "29",
       "max_temp": "32",
       "comfort_index": "悶熱至易中暑"
+    },
+    {
+      "start_time": "2026-07-12 18:00:00",
+      "end_time": "2026-07-13 06:00:00",
+      "weather_phenomenon": "多雲時陰",
+      "weather_code": "5",
+      "rain_probability": "20",
+      "min_temp": "28",
+      "max_temp": "30",
+      "comfort_index": "悶熱"
     }
   ]
 }
