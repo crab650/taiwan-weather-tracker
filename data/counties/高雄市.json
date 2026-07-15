@@ -1,17 +1,7 @@
 {
   "location": "高雄市",
-  "updated_at": "2026-07-15T16:18:09.765521+08:00",
+  "updated_at": "2026-07-15T17:18:10.919704+08:00",
   "forecast": [
-    {
-      "start_time": "2026-07-15 12:00:00",
-      "end_time": "2026-07-15 18:00:00",
-      "weather_phenomenon": "多雲短暫陣雨或雷雨",
-      "weather_code": "15",
-      "rain_probability": "40",
-      "min_temp": "31",
-      "max_temp": "33",
-      "comfort_index": "悶熱"
-    },
     {
       "start_time": "2026-07-15 18:00:00",
       "end_time": "2026-07-16 06:00:00",
@@ -20,7 +10,7 @@
       "rain_probability": "40",
       "min_temp": "28",
       "max_temp": "31",
-      "comfort_index": "悶熱"
+      "comfort_index": "舒適至悶熱"
     },
     {
       "start_time": "2026-07-16 06:00:00",
@@ -30,7 +20,17 @@
       "rain_probability": "50",
       "min_temp": "28",
       "max_temp": "33",
-      "comfort_index": "悶熱至易中暑"
+      "comfort_index": "舒適至易中暑"
+    },
+    {
+      "start_time": "2026-07-16 18:00:00",
+      "end_time": "2026-07-17 06:00:00",
+      "weather_phenomenon": "多雲短暫陣雨或雷雨",
+      "weather_code": "15",
+      "rain_probability": "30",
+      "min_temp": "28",
+      "max_temp": "31",
+      "comfort_index": "悶熱"
     }
   ]
 }
