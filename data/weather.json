@@ -1,7 +1,7 @@
 {
   "dataset_id": "F-C0032-001",
   "title": "台灣今明36小時天氣預報",
-  "updated_at": "2026-07-17T11:18:10.139661+08:00",
+  "updated_at": "2026-07-17T12:18:10.553465+08:00",
   "location_count": 22,
   "locations": {
     "嘉義縣": [
@@ -626,9 +626,9 @@
       {
         "start_time": "2026-07-17 18:00:00",
         "end_time": "2026-07-18 06:00:00",
-        "weather_phenomenon": "多雲",
-        "weather_code": "4",
-        "rain_probability": "10",
+        "weather_phenomenon": "多雲時陰",
+        "weather_code": "5",
+        "rain_probability": "20",
         "min_temp": "27",
         "max_temp": "29",
         "comfort_index": "舒適至悶熱"
@@ -636,8 +636,8 @@
       {
         "start_time": "2026-07-18 06:00:00",
         "end_time": "2026-07-18 18:00:00",
-        "weather_phenomenon": "晴時多雲",
-        "weather_code": "2",
+        "weather_phenomenon": "多雲時晴",
+        "weather_code": "3",
         "rain_probability": "20",
         "min_temp": "27",
         "max_temp": "32",
