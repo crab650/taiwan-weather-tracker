@@ -1,36 +1,36 @@
 {
   "location": "南投縣",
-  "updated_at": "2026-07-17T16:18:10.382147+08:00",
+  "updated_at": "2026-07-17T17:18:12.795259+08:00",
   "forecast": [
-    {
-      "start_time": "2026-07-17 12:00:00",
-      "end_time": "2026-07-17 18:00:00",
-      "weather_phenomenon": "晴時多雲",
-      "weather_code": "2",
-      "rain_probability": "20",
-      "min_temp": "31",
-      "max_temp": "35",
-      "comfort_index": "悶熱至易中暑"
-    },
     {
       "start_time": "2026-07-17 18:00:00",
       "end_time": "2026-07-18 06:00:00",
-      "weather_phenomenon": "多雲時晴",
-      "weather_code": "3",
+      "weather_phenomenon": "晴時多雲",
+      "weather_code": "2",
       "rain_probability": "10",
-      "min_temp": "26",
+      "min_temp": "25",
       "max_temp": "31",
       "comfort_index": "舒適至悶熱"
     },
     {
       "start_time": "2026-07-18 06:00:00",
       "end_time": "2026-07-18 18:00:00",
-      "weather_phenomenon": "多雲",
-      "weather_code": "4",
-      "rain_probability": "20",
-      "min_temp": "26",
-      "max_temp": "34",
+      "weather_phenomenon": "多雲短暫陣雨",
+      "weather_code": "8",
+      "rain_probability": "30",
+      "min_temp": "25",
+      "max_temp": "35",
       "comfort_index": "舒適至易中暑"
+    },
+    {
+      "start_time": "2026-07-18 18:00:00",
+      "end_time": "2026-07-19 06:00:00",
+      "weather_phenomenon": "晴時多雲",
+      "weather_code": "2",
+      "rain_probability": "20",
+      "min_temp": "25",
+      "max_temp": "31",
+      "comfort_index": "舒適至悶熱"
     }
   ]
 }
