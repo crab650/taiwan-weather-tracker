@@ -1,36 +1,36 @@
 {
   "location": "新北市",
-  "updated_at": "2026-07-19T10:26:14.251109+08:00",
+  "updated_at": "2026-07-21T10:41:51.787861+08:00",
   "forecast": [
     {
-      "start_time": "2026-07-19 06:00:00",
-      "end_time": "2026-07-19 18:00:00",
+      "start_time": "2026-07-21 06:00:00",
+      "end_time": "2026-07-21 18:00:00",
       "weather_phenomenon": "晴午後短暫雷陣雨",
       "weather_code": "21",
-      "rain_probability": "40",
+      "rain_probability": "60",
       "min_temp": "27",
-      "max_temp": "36",
+      "max_temp": "35",
       "comfort_index": "舒適至易中暑"
     },
     {
-      "start_time": "2026-07-19 18:00:00",
-      "end_time": "2026-07-20 06:00:00",
+      "start_time": "2026-07-21 18:00:00",
+      "end_time": "2026-07-22 06:00:00",
       "weather_phenomenon": "多雲短暫陣雨",
       "weather_code": "8",
       "rain_probability": "30",
       "min_temp": "27",
-      "max_temp": "32",
+      "max_temp": "31",
       "comfort_index": "舒適至悶熱"
     },
     {
-      "start_time": "2026-07-20 06:00:00",
-      "end_time": "2026-07-20 18:00:00",
+      "start_time": "2026-07-22 06:00:00",
+      "end_time": "2026-07-22 18:00:00",
       "weather_phenomenon": "晴午後短暫雷陣雨",
       "weather_code": "21",
-      "rain_probability": "70",
+      "rain_probability": "30",
       "min_temp": "27",
-      "max_temp": "36",
-      "comfort_index": "舒適至易中暑"
+      "max_temp": "35",
+      "comfort_index": "舒適至悶熱"
     }
   ]
 }
