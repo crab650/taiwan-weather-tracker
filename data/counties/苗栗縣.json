@@ -1,17 +1,7 @@
 {
   "location": "苗栗縣",
-  "updated_at": "2026-07-23T04:18:12.827473+08:00",
+  "updated_at": "2026-07-23T05:18:14.399104+08:00",
   "forecast": [
-    {
-      "start_time": "2026-07-23 00:00:00",
-      "end_time": "2026-07-23 06:00:00",
-      "weather_phenomenon": "晴時多雲",
-      "weather_code": "2",
-      "rain_probability": "0",
-      "min_temp": "25",
-      "max_temp": "26",
-      "comfort_index": "舒適"
-    },
     {
       "start_time": "2026-07-23 06:00:00",
       "end_time": "2026-07-23 18:00:00",
@@ -31,6 +21,16 @@
       "min_temp": "24",
       "max_temp": "30",
       "comfort_index": "舒適至悶熱"
+    },
+    {
+      "start_time": "2026-07-24 06:00:00",
+      "end_time": "2026-07-24 18:00:00",
+      "weather_phenomenon": "陰時多雲",
+      "weather_code": "6",
+      "rain_probability": "10",
+      "min_temp": "24",
+      "max_temp": "33",
+      "comfort_index": "舒適至易中暑"
     }
   ]
 }
