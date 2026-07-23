@@ -1,22 +1,12 @@
 {
   "location": "新竹市",
-  "updated_at": "2026-07-24T03:18:10.344556+08:00",
+  "updated_at": "2026-07-24T04:18:12.363414+08:00",
   "forecast": [
-    {
-      "start_time": "2026-07-24 00:00:00",
-      "end_time": "2026-07-24 06:00:00",
-      "weather_phenomenon": "晴時多雲",
-      "weather_code": "2",
-      "rain_probability": "10",
-      "min_temp": "27",
-      "max_temp": "28",
-      "comfort_index": "舒適至悶熱"
-    },
     {
       "start_time": "2026-07-24 06:00:00",
       "end_time": "2026-07-24 18:00:00",
-      "weather_phenomenon": "陰時多雲",
-      "weather_code": "6",
+      "weather_phenomenon": "多雲時陰",
+      "weather_code": "5",
       "rain_probability": "10",
       "min_temp": "27",
       "max_temp": "32",
@@ -25,12 +15,22 @@
     {
       "start_time": "2026-07-24 18:00:00",
       "end_time": "2026-07-25 06:00:00",
-      "weather_phenomenon": "多雲",
-      "weather_code": "4",
+      "weather_phenomenon": "多雲時晴",
+      "weather_code": "3",
       "rain_probability": "10",
       "min_temp": "27",
       "max_temp": "30",
       "comfort_index": "舒適至悶熱"
+    },
+    {
+      "start_time": "2026-07-25 06:00:00",
+      "end_time": "2026-07-25 18:00:00",
+      "weather_phenomenon": "多雲午後短暫雷陣雨",
+      "weather_code": "22",
+      "rain_probability": "30",
+      "min_temp": "27",
+      "max_temp": "34",
+      "comfort_index": "舒適至易中暑"
     }
   ]
 }
