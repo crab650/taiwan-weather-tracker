@@ -1,25 +1,15 @@
 {
   "location": "嘉義市",
-  "updated_at": "2026-07-27T16:18:12.466431+08:00",
+  "updated_at": "2026-07-27T17:18:14.025401+08:00",
   "forecast": [
-    {
-      "start_time": "2026-07-27 12:00:00",
-      "end_time": "2026-07-27 18:00:00",
-      "weather_phenomenon": "多雲午後短暫雷陣雨",
-      "weather_code": "22",
-      "rain_probability": "70",
-      "min_temp": "29",
-      "max_temp": "33",
-      "comfort_index": "悶熱至易中暑"
-    },
     {
       "start_time": "2026-07-27 18:00:00",
       "end_time": "2026-07-28 06:00:00",
       "weather_phenomenon": "多雲時陰短暫陣雨",
       "weather_code": "9",
-      "rain_probability": "50",
+      "rain_probability": "40",
       "min_temp": "25",
-      "max_temp": "29",
+      "max_temp": "30",
       "comfort_index": "舒適至悶熱"
     },
     {
@@ -27,10 +17,20 @@
       "end_time": "2026-07-28 18:00:00",
       "weather_phenomenon": "多雲午後短暫雷陣雨",
       "weather_code": "22",
-      "rain_probability": "50",
+      "rain_probability": "40",
       "min_temp": "25",
-      "max_temp": "34",
+      "max_temp": "35",
       "comfort_index": "舒適至易中暑"
+    },
+    {
+      "start_time": "2026-07-28 18:00:00",
+      "end_time": "2026-07-29 06:00:00",
+      "weather_phenomenon": "多雲",
+      "weather_code": "4",
+      "rain_probability": "20",
+      "min_temp": "25",
+      "max_temp": "30",
+      "comfort_index": "舒適至悶熱"
     }
   ]
 }

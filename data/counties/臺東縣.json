@@ -1,17 +1,7 @@
 {
   "location": "臺東縣",
-  "updated_at": "2026-07-27T16:18:12.466431+08:00",
+  "updated_at": "2026-07-27T17:18:14.025401+08:00",
   "forecast": [
-    {
-      "start_time": "2026-07-27 12:00:00",
-      "end_time": "2026-07-27 18:00:00",
-      "weather_phenomenon": "多雲時陰短暫陣雨或雷雨",
-      "weather_code": "16",
-      "rain_probability": "30",
-      "min_temp": "29",
-      "max_temp": "31",
-      "comfort_index": "悶熱"
-    },
     {
       "start_time": "2026-07-27 18:00:00",
       "end_time": "2026-07-28 06:00:00",
@@ -25,11 +15,21 @@
     {
       "start_time": "2026-07-28 06:00:00",
       "end_time": "2026-07-28 18:00:00",
-      "weather_phenomenon": "多雲時陰短暫陣雨",
-      "weather_code": "9",
+      "weather_phenomenon": "多雲短暫陣雨",
+      "weather_code": "8",
       "rain_probability": "30",
       "min_temp": "26",
       "max_temp": "32",
+      "comfort_index": "舒適至悶熱"
+    },
+    {
+      "start_time": "2026-07-28 18:00:00",
+      "end_time": "2026-07-29 06:00:00",
+      "weather_phenomenon": "多雲時晴",
+      "weather_code": "3",
+      "rain_probability": "10",
+      "min_temp": "26",
+      "max_temp": "29",
       "comfort_index": "舒適至悶熱"
     }
   ]
