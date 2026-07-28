@@ -1,22 +1,12 @@
 {
   "location": "基隆市",
-  "updated_at": "2026-07-28T16:18:12.619340+08:00",
+  "updated_at": "2026-07-28T17:18:12.788500+08:00",
   "forecast": [
-    {
-      "start_time": "2026-07-28 12:00:00",
-      "end_time": "2026-07-28 18:00:00",
-      "weather_phenomenon": "多雲",
-      "weather_code": "4",
-      "rain_probability": "10",
-      "min_temp": "30",
-      "max_temp": "33",
-      "comfort_index": "悶熱"
-    },
     {
       "start_time": "2026-07-28 18:00:00",
       "end_time": "2026-07-29 06:00:00",
-      "weather_phenomenon": "晴時多雲",
-      "weather_code": "2",
+      "weather_phenomenon": "多雲時晴",
+      "weather_code": "3",
       "rain_probability": "10",
       "min_temp": "27",
       "max_temp": "30",
@@ -25,11 +15,21 @@
     {
       "start_time": "2026-07-29 06:00:00",
       "end_time": "2026-07-29 18:00:00",
-      "weather_phenomenon": "多雲時晴",
-      "weather_code": "3",
+      "weather_phenomenon": "多雲",
+      "weather_code": "4",
       "rain_probability": "10",
       "min_temp": "27",
       "max_temp": "33",
+      "comfort_index": "舒適至悶熱"
+    },
+    {
+      "start_time": "2026-07-29 18:00:00",
+      "end_time": "2026-07-30 06:00:00",
+      "weather_phenomenon": "多雲",
+      "weather_code": "4",
+      "rain_probability": "10",
+      "min_temp": "27",
+      "max_temp": "31",
       "comfort_index": "舒適至悶熱"
     }
   ]
