@@ -1,16 +1,16 @@
 {
   "location": "臺中市",
-  "updated_at": "2026-07-29T10:18:12.768608+08:00",
+  "updated_at": "2026-07-29T11:18:12.663228+08:00",
   "forecast": [
     {
-      "start_time": "2026-07-29 06:00:00",
+      "start_time": "2026-07-29 12:00:00",
       "end_time": "2026-07-29 18:00:00",
-      "weather_phenomenon": "陰時多雲",
-      "weather_code": "6",
-      "rain_probability": "10",
-      "min_temp": "26",
+      "weather_phenomenon": "多雲午後短暫雷陣雨",
+      "weather_code": "22",
+      "rain_probability": "30",
+      "min_temp": "32",
       "max_temp": "35",
-      "comfort_index": "舒適至易中暑"
+      "comfort_index": "悶熱至易中暑"
     },
     {
       "start_time": "2026-07-29 18:00:00",
