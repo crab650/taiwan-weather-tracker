@@ -1,15 +1,15 @@
 {
   "location": "臺南市",
-  "updated_at": "2026-07-30T22:18:09.649229+08:00",
+  "updated_at": "2026-07-30T23:18:08.781901+08:00",
   "forecast": [
     {
-      "start_time": "2026-07-30 18:00:00",
+      "start_time": "2026-07-31 00:00:00",
       "end_time": "2026-07-31 06:00:00",
-      "weather_phenomenon": "陰時多雲短暫陣雨",
-      "weather_code": "10",
+      "weather_phenomenon": "陰短暫陣雨",
+      "weather_code": "11",
       "rain_probability": "30",
       "min_temp": "27",
-      "max_temp": "30",
+      "max_temp": "28",
       "comfort_index": "舒適至悶熱"
     },
     {
