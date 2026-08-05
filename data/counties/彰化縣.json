@@ -1,14 +1,14 @@
 {
   "location": "彰化縣",
-  "updated_at": "2026-08-05T10:18:08.250573+08:00",
+  "updated_at": "2026-08-05T11:18:08.373636+08:00",
   "forecast": [
     {
-      "start_time": "2026-08-05 06:00:00",
+      "start_time": "2026-08-05 12:00:00",
       "end_time": "2026-08-05 18:00:00",
       "weather_phenomenon": "晴時多雲",
       "weather_code": "2",
       "rain_probability": "20",
-      "min_temp": "28",
+      "min_temp": "31",
       "max_temp": "34",
       "comfort_index": "悶熱"
     },
