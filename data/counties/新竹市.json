@@ -1,36 +1,36 @@
 {
   "location": "新竹市",
-  "updated_at": "2026-08-07T16:18:08.526761+08:00",
+  "updated_at": "2026-08-07T17:18:09.589572+08:00",
   "forecast": [
-    {
-      "start_time": "2026-08-07 12:00:00",
-      "end_time": "2026-08-07 18:00:00",
-      "weather_phenomenon": "多雲時晴",
-      "weather_code": "3",
-      "rain_probability": "20",
-      "min_temp": "32",
-      "max_temp": "34",
-      "comfort_index": "舒適"
-    },
     {
       "start_time": "2026-08-07 18:00:00",
       "end_time": "2026-08-08 06:00:00",
-      "weather_phenomenon": "陰時多雲陣雨",
-      "weather_code": "13",
-      "rain_probability": "70",
-      "min_temp": "26",
+      "weather_phenomenon": "多雲時陰陣雨或雷雨",
+      "weather_code": "16",
+      "rain_probability": "80",
+      "min_temp": "27",
       "max_temp": "32",
-      "comfort_index": "舒適"
+      "comfort_index": "舒適至悶熱"
     },
     {
       "start_time": "2026-08-08 06:00:00",
       "end_time": "2026-08-08 18:00:00",
-      "weather_phenomenon": "陰時多雲陣雨",
-      "weather_code": "13",
-      "rain_probability": "70",
-      "min_temp": "26",
-      "max_temp": "32",
-      "comfort_index": "舒適"
+      "weather_phenomenon": "多雲時陰陣雨或雷雨",
+      "weather_code": "16",
+      "rain_probability": "60",
+      "min_temp": "27",
+      "max_temp": "33",
+      "comfort_index": "舒適至悶熱"
+    },
+    {
+      "start_time": "2026-08-08 18:00:00",
+      "end_time": "2026-08-09 06:00:00",
+      "weather_phenomenon": "陰時多雲陣雨或雷雨",
+      "weather_code": "17",
+      "rain_probability": "90",
+      "min_temp": "27",
+      "max_temp": "30",
+      "comfort_index": "舒適至悶熱"
     }
   ]
 }
