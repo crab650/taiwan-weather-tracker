@@ -1,16 +1,16 @@
 {
   "location": "花蓮縣",
-  "updated_at": "2026-08-08T10:18:08.561216+08:00",
+  "updated_at": "2026-08-08T11:18:08.694738+08:00",
   "forecast": [
     {
-      "start_time": "2026-08-08 06:00:00",
+      "start_time": "2026-08-08 12:00:00",
       "end_time": "2026-08-08 18:00:00",
-      "weather_phenomenon": "多雲時陰",
-      "weather_code": "5",
+      "weather_phenomenon": "多雲",
+      "weather_code": "4",
       "rain_probability": "20",
-      "min_temp": "28",
-      "max_temp": "34",
-      "comfort_index": "舒適至悶熱"
+      "min_temp": "33",
+      "max_temp": "35",
+      "comfort_index": "悶熱"
     },
     {
       "start_time": "2026-08-08 18:00:00",
@@ -18,8 +18,8 @@
       "weather_phenomenon": "多雲時陰",
       "weather_code": "5",
       "rain_probability": "20",
-      "min_temp": "29",
-      "max_temp": "32",
+      "min_temp": "31",
+      "max_temp": "33",
       "comfort_index": "悶熱"
     },
     {
@@ -28,8 +28,8 @@
       "weather_phenomenon": "陰天",
       "weather_code": "7",
       "rain_probability": "20",
-      "min_temp": "29",
-      "max_temp": "34",
+      "min_temp": "31",
+      "max_temp": "33",
       "comfort_index": "悶熱"
     }
   ]
