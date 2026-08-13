@@ -1,15 +1,15 @@
 {
   "location": "高雄市",
-  "updated_at": "2026-08-13T22:18:09.370251+08:00",
+  "updated_at": "2026-08-13T23:18:09.592514+08:00",
   "forecast": [
     {
-      "start_time": "2026-08-13 18:00:00",
+      "start_time": "2026-08-14 00:00:00",
       "end_time": "2026-08-14 06:00:00",
       "weather_phenomenon": "多雲時陰陣雨或雷雨",
       "weather_code": "16",
       "rain_probability": "70",
       "min_temp": "28",
-      "max_temp": "30",
+      "max_temp": "28",
       "comfort_index": "悶熱"
     },
     {
