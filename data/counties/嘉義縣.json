@@ -1,23 +1,23 @@
 {
   "location": "嘉義縣",
-  "updated_at": "2026-08-15T10:18:08.633641+08:00",
+  "updated_at": "2026-08-15T11:18:07.941769+08:00",
   "forecast": [
     {
-      "start_time": "2026-08-15 06:00:00",
+      "start_time": "2026-08-15 12:00:00",
       "end_time": "2026-08-15 18:00:00",
       "weather_phenomenon": "多雲短暫陣雨或雷雨",
       "weather_code": "15",
       "rain_probability": "90",
-      "min_temp": "27",
+      "min_temp": "30",
       "max_temp": "33",
-      "comfort_index": "舒適至易中暑"
+      "comfort_index": "悶熱"
     },
     {
       "start_time": "2026-08-15 18:00:00",
       "end_time": "2026-08-16 06:00:00",
       "weather_phenomenon": "多雲短暫陣雨或雷雨",
       "weather_code": "15",
-      "rain_probability": "50",
+      "rain_probability": "30",
       "min_temp": "27",
       "max_temp": "30",
       "comfort_index": "舒適至悶熱"
