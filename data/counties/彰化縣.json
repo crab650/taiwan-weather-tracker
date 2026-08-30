@@ -1,17 +1,7 @@
 {
   "location": "彰化縣",
-  "updated_at": "2026-08-30T16:18:09.013288+08:00",
+  "updated_at": "2026-08-30T17:18:10.354858+08:00",
   "forecast": [
-    {
-      "start_time": "2026-08-30 12:00:00",
-      "end_time": "2026-08-30 18:00:00",
-      "weather_phenomenon": "多雲午後短暫雷陣雨",
-      "weather_code": "22",
-      "rain_probability": "90",
-      "min_temp": "30",
-      "max_temp": "33",
-      "comfort_index": "悶熱至易中暑"
-    },
     {
       "start_time": "2026-08-30 18:00:00",
       "end_time": "2026-08-31 06:00:00",
@@ -25,11 +15,21 @@
     {
       "start_time": "2026-08-31 06:00:00",
       "end_time": "2026-08-31 18:00:00",
-      "weather_phenomenon": "多雲時陰陣雨或雷雨",
+      "weather_phenomenon": "多雲時陰短暫陣雨或雷雨",
       "weather_code": "16",
       "rain_probability": "80",
       "min_temp": "26",
-      "max_temp": "32",
+      "max_temp": "31",
+      "comfort_index": "舒適至悶熱"
+    },
+    {
+      "start_time": "2026-08-31 18:00:00",
+      "end_time": "2026-09-01 06:00:00",
+      "weather_phenomenon": "陰短暫陣雨或雷雨",
+      "weather_code": "18",
+      "rain_probability": "70",
+      "min_temp": "26",
+      "max_temp": "29",
       "comfort_index": "舒適至悶熱"
     }
   ]
