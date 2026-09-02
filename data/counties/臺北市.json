@@ -1,23 +1,23 @@
 {
   "location": "臺北市",
-  "updated_at": "2026-09-02T10:18:09.371891+08:00",
+  "updated_at": "2026-09-02T11:18:09.422514+08:00",
   "forecast": [
     {
-      "start_time": "2026-09-02 06:00:00",
+      "start_time": "2026-09-02 12:00:00",
       "end_time": "2026-09-02 18:00:00",
-      "weather_phenomenon": "晴時多雲",
-      "weather_code": "2",
+      "weather_phenomenon": "多雲時陰",
+      "weather_code": "5",
       "rain_probability": "20",
-      "min_temp": "26",
+      "min_temp": "30",
       "max_temp": "33",
-      "comfort_index": "舒適至悶熱"
+      "comfort_index": "悶熱"
     },
     {
       "start_time": "2026-09-02 18:00:00",
       "end_time": "2026-09-03 06:00:00",
-      "weather_phenomenon": "陰短暫陣雨或雷雨",
-      "weather_code": "18",
-      "rain_probability": "30",
+      "weather_phenomenon": "陰時多雲陣雨或雷雨",
+      "weather_code": "17",
+      "rain_probability": "70",
       "min_temp": "27",
       "max_temp": "30",
       "comfort_index": "舒適至悶熱"
@@ -25,11 +25,11 @@
     {
       "start_time": "2026-09-03 06:00:00",
       "end_time": "2026-09-03 18:00:00",
-      "weather_phenomenon": "陰短暫陣雨或雷雨",
+      "weather_phenomenon": "陰陣雨或雷雨",
       "weather_code": "18",
-      "rain_probability": "50",
+      "rain_probability": "70",
       "min_temp": "27",
-      "max_temp": "30",
+      "max_temp": "29",
       "comfort_index": "舒適至悶熱"
     }
   ]
