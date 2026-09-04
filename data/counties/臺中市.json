@@ -1,16 +1,16 @@
 {
   "location": "臺中市",
-  "updated_at": "2026-09-04T22:18:09.951724+08:00",
+  "updated_at": "2026-09-04T23:18:10.951420+08:00",
   "forecast": [
     {
-      "start_time": "2026-09-04 18:00:00",
+      "start_time": "2026-09-05 00:00:00",
       "end_time": "2026-09-05 06:00:00",
       "weather_phenomenon": "陰短暫陣雨",
       "weather_code": "11",
       "rain_probability": "30",
       "min_temp": "26",
-      "max_temp": "28",
-      "comfort_index": "舒適至悶熱"
+      "max_temp": "26",
+      "comfort_index": "舒適"
     },
     {
       "start_time": "2026-09-05 06:00:00",
