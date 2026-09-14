@@ -1,15 +1,15 @@
 {
   "location": "宜蘭縣",
-  "updated_at": "2026-09-14T22:18:09.125688+08:00",
+  "updated_at": "2026-09-14T23:18:10.482048+08:00",
   "forecast": [
     {
-      "start_time": "2026-09-14 18:00:00",
+      "start_time": "2026-09-15 00:00:00",
       "end_time": "2026-09-15 06:00:00",
-      "weather_phenomenon": "陰時多雲短暫陣雨",
-      "weather_code": "10",
+      "weather_phenomenon": "陰短暫陣雨",
+      "weather_code": "11",
       "rain_probability": "50",
-      "min_temp": "24",
-      "max_temp": "27",
+      "min_temp": "25",
+      "max_temp": "26",
       "comfort_index": "舒適"
     },
     {
@@ -18,7 +18,7 @@
       "weather_phenomenon": "陰短暫陣雨",
       "weather_code": "11",
       "rain_probability": "50",
-      "min_temp": "24",
+      "min_temp": "25",
       "max_temp": "28",
       "comfort_index": "舒適至悶熱"
     },
