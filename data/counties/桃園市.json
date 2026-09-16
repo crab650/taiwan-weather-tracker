@@ -1,16 +1,16 @@
 {
   "location": "桃園市",
-  "updated_at": "2026-09-16T10:18:10.044394+08:00",
+  "updated_at": "2026-09-16T11:18:09.699085+08:00",
   "forecast": [
     {
-      "start_time": "2026-09-16 06:00:00",
+      "start_time": "2026-09-16 12:00:00",
       "end_time": "2026-09-16 18:00:00",
       "weather_phenomenon": "陰時多雲",
       "weather_code": "6",
-      "rain_probability": "10",
-      "min_temp": "24",
-      "max_temp": "30",
-      "comfort_index": "舒適至悶熱"
+      "rain_probability": "0",
+      "min_temp": "26",
+      "max_temp": "29",
+      "comfort_index": "舒適"
     },
     {
       "start_time": "2026-09-16 18:00:00",
@@ -18,17 +18,17 @@
       "weather_phenomenon": "晴時多雲",
       "weather_code": "2",
       "rain_probability": "0",
-      "min_temp": "24",
-      "max_temp": "27",
+      "min_temp": "23",
+      "max_temp": "26",
       "comfort_index": "舒適"
     },
     {
       "start_time": "2026-09-17 06:00:00",
       "end_time": "2026-09-17 18:00:00",
-      "weather_phenomenon": "多雲時晴",
-      "weather_code": "3",
+      "weather_phenomenon": "晴時多雲",
+      "weather_code": "2",
       "rain_probability": "10",
-      "min_temp": "24",
+      "min_temp": "23",
       "max_temp": "31",
       "comfort_index": "舒適至悶熱"
     }
