@@ -1,16 +1,16 @@
 {
   "location": "屏東縣",
-  "updated_at": "2026-09-24T10:18:08.752743+08:00",
+  "updated_at": "2026-09-24T11:18:09.083241+08:00",
   "forecast": [
     {
-      "start_time": "2026-09-24 06:00:00",
+      "start_time": "2026-09-24 12:00:00",
       "end_time": "2026-09-24 18:00:00",
-      "weather_phenomenon": "晴午後短暫陣雨",
-      "weather_code": "19",
+      "weather_phenomenon": "多雲午後短暫陣雨",
+      "weather_code": "20",
       "rain_probability": "30",
-      "min_temp": "25",
+      "min_temp": "29",
       "max_temp": "33",
-      "comfort_index": "舒適至悶熱"
+      "comfort_index": "悶熱"
     },
     {
       "start_time": "2026-09-24 18:00:00",
