@@ -1,17 +1,7 @@
 {
   "location": "臺北市",
-  "updated_at": "2026-10-08T16:18:09.761325+08:00",
+  "updated_at": "2026-10-08T17:18:10.663914+08:00",
   "forecast": [
-    {
-      "start_time": "2026-10-08 12:00:00",
-      "end_time": "2026-10-08 18:00:00",
-      "weather_phenomenon": "陰天",
-      "weather_code": "7",
-      "rain_probability": "10",
-      "min_temp": "26",
-      "max_temp": "29",
-      "comfort_index": "舒適"
-    },
     {
       "start_time": "2026-10-08 18:00:00",
       "end_time": "2026-10-09 06:00:00",
@@ -30,6 +20,16 @@
       "rain_probability": "10",
       "min_temp": "23",
       "max_temp": "30",
+      "comfort_index": "舒適"
+    },
+    {
+      "start_time": "2026-10-09 18:00:00",
+      "end_time": "2026-10-10 06:00:00",
+      "weather_phenomenon": "多雲時陰短暫陣雨",
+      "weather_code": "9",
+      "rain_probability": "30",
+      "min_temp": "24",
+      "max_temp": "27",
       "comfort_index": "舒適"
     }
   ]
