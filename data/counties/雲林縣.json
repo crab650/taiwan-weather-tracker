@@ -1,17 +1,7 @@
 {
   "location": "雲林縣",
-  "updated_at": "2026-10-09T16:18:09.597240+08:00",
+  "updated_at": "2026-10-09T17:18:10.188112+08:00",
   "forecast": [
-    {
-      "start_time": "2026-10-09 12:00:00",
-      "end_time": "2026-10-09 18:00:00",
-      "weather_phenomenon": "晴時多雲",
-      "weather_code": "2",
-      "rain_probability": "10",
-      "min_temp": "27",
-      "max_temp": "32",
-      "comfort_index": "舒適至悶熱"
-    },
     {
       "start_time": "2026-10-09 18:00:00",
       "end_time": "2026-10-10 06:00:00",
@@ -31,6 +21,16 @@
       "min_temp": "22",
       "max_temp": "33",
       "comfort_index": "舒適至悶熱"
+    },
+    {
+      "start_time": "2026-10-10 18:00:00",
+      "end_time": "2026-10-11 06:00:00",
+      "weather_phenomenon": "晴時多雲",
+      "weather_code": "2",
+      "rain_probability": "10",
+      "min_temp": "23",
+      "max_temp": "28",
+      "comfort_index": "舒適"
     }
   ]
 }
