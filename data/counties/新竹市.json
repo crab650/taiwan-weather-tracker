@@ -1,15 +1,15 @@
 {
   "location": "新竹市",
-  "updated_at": "2026-10-22T22:18:09.390131+08:00",
+  "updated_at": "2026-10-22T23:18:10.952387+08:00",
   "forecast": [
     {
-      "start_time": "2026-10-22 18:00:00",
+      "start_time": "2026-10-23 00:00:00",
       "end_time": "2026-10-23 06:00:00",
       "weather_phenomenon": "陰陣雨",
       "weather_code": "14",
       "rain_probability": "90",
       "min_temp": "23",
-      "max_temp": "24",
+      "max_temp": "23",
       "comfort_index": "舒適"
     },
     {
