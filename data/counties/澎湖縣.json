@@ -1,17 +1,7 @@
 {
   "location": "澎湖縣",
-  "updated_at": "2026-10-28T04:18:09.678347+08:00",
+  "updated_at": "2026-10-28T05:18:09.545870+08:00",
   "forecast": [
-    {
-      "start_time": "2026-10-28 00:00:00",
-      "end_time": "2026-10-28 06:00:00",
-      "weather_phenomenon": "晴時多雲",
-      "weather_code": "2",
-      "rain_probability": "0",
-      "min_temp": "24",
-      "max_temp": "24",
-      "comfort_index": "舒適"
-    },
     {
       "start_time": "2026-10-28 06:00:00",
       "end_time": "2026-10-28 18:00:00",
@@ -30,6 +20,16 @@
       "rain_probability": "0",
       "min_temp": "24",
       "max_temp": "24",
+      "comfort_index": "舒適"
+    },
+    {
+      "start_time": "2026-10-29 06:00:00",
+      "end_time": "2026-10-29 18:00:00",
+      "weather_phenomenon": "多雲短暫雨",
+      "weather_code": "8",
+      "rain_probability": "30",
+      "min_temp": "24",
+      "max_temp": "27",
       "comfort_index": "舒適"
     }
   ]
