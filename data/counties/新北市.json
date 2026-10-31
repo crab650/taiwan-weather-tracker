@@ -1,6 +1,6 @@
 {
   "location": "新北市",
-  "updated_at": "2026-10-31T11:18:09.174661+08:00",
+  "updated_at": "2026-10-31T12:18:10.263669+08:00",
   "forecast": [
     {
       "start_time": "2026-10-31 12:00:00",
@@ -9,7 +9,7 @@
       "weather_code": "4",
       "rain_probability": "20",
       "min_temp": "25",
-      "max_temp": "27",
+      "max_temp": "26",
       "comfort_index": "舒適"
     },
     {
