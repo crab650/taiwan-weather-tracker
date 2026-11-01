@@ -1,15 +1,15 @@
 {
   "location": "桃園市",
-  "updated_at": "2026-11-01T22:18:09.961347+08:00",
+  "updated_at": "2026-11-01T23:18:10.339953+08:00",
   "forecast": [
     {
-      "start_time": "2026-11-01 18:00:00",
+      "start_time": "2026-11-02 00:00:00",
       "end_time": "2026-11-02 06:00:00",
       "weather_phenomenon": "晴時多雲",
       "weather_code": "2",
       "rain_probability": "10",
       "min_temp": "22",
-      "max_temp": "25",
+      "max_temp": "24",
       "comfort_index": "舒適"
     },
     {
