@@ -1,22 +1,22 @@
 {
   "location": "新北市",
-  "updated_at": "2026-11-03T10:18:10.733872+08:00",
+  "updated_at": "2026-11-03T11:18:10.022179+08:00",
   "forecast": [
     {
-      "start_time": "2026-11-03 06:00:00",
+      "start_time": "2026-11-03 12:00:00",
       "end_time": "2026-11-03 18:00:00",
-      "weather_phenomenon": "陰時多雲",
-      "weather_code": "6",
+      "weather_phenomenon": "多雲",
+      "weather_code": "4",
       "rain_probability": "10",
-      "min_temp": "23",
+      "min_temp": "24",
       "max_temp": "26",
       "comfort_index": "舒適"
     },
     {
       "start_time": "2026-11-03 18:00:00",
       "end_time": "2026-11-04 06:00:00",
-      "weather_phenomenon": "多雲時晴",
-      "weather_code": "3",
+      "weather_phenomenon": "晴時多雲",
+      "weather_code": "2",
       "rain_probability": "10",
       "min_temp": "23",
       "max_temp": "24",
@@ -29,7 +29,7 @@
       "weather_code": "2",
       "rain_probability": "10",
       "min_temp": "23",
-      "max_temp": "29",
+      "max_temp": "30",
       "comfort_index": "舒適"
     }
   ]
