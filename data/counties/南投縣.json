@@ -1,14 +1,14 @@
 {
   "location": "南投縣",
-  "updated_at": "2026-11-04T10:18:10.283389+08:00",
+  "updated_at": "2026-11-04T11:18:10.236272+08:00",
   "forecast": [
     {
-      "start_time": "2026-11-04 06:00:00",
+      "start_time": "2026-11-04 12:00:00",
       "end_time": "2026-11-04 18:00:00",
       "weather_phenomenon": "晴時多雲",
       "weather_code": "2",
-      "rain_probability": "0",
-      "min_temp": "22",
+      "rain_probability": "10",
+      "min_temp": "27",
       "max_temp": "31",
       "comfort_index": "舒適至悶熱"
     },
@@ -17,7 +17,7 @@
       "end_time": "2026-11-05 06:00:00",
       "weather_phenomenon": "晴時多雲",
       "weather_code": "2",
-      "rain_probability": "0",
+      "rain_probability": "10",
       "min_temp": "22",
       "max_temp": "27",
       "comfort_index": "舒適"
@@ -27,7 +27,7 @@
       "end_time": "2026-11-05 18:00:00",
       "weather_phenomenon": "晴時多雲",
       "weather_code": "2",
-      "rain_probability": "0",
+      "rain_probability": "10",
       "min_temp": "22",
       "max_temp": "31",
       "comfort_index": "舒適至悶熱"
