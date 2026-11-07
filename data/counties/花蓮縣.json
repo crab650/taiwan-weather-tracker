@@ -1,15 +1,15 @@
 {
   "location": "花蓮縣",
-  "updated_at": "2026-11-07T21:18:10.034615+08:00",
+  "updated_at": "2026-11-07T22:18:10.194575+08:00",
   "forecast": [
     {
-      "start_time": "2026-11-07 18:00:00",
+      "start_time": "2026-11-08 00:00:00",
       "end_time": "2026-11-08 06:00:00",
-      "weather_phenomenon": "陰短暫陣雨",
+      "weather_phenomenon": "陰短暫雨",
       "weather_code": "11",
-      "rain_probability": "100",
+      "rain_probability": "70",
       "min_temp": "22",
-      "max_temp": "24",
+      "max_temp": "23",
       "comfort_index": "舒適"
     },
     {
