@@ -1,14 +1,14 @@
 {
   "location": "新竹縣",
-  "updated_at": "2026-11-10T10:18:09.061603+08:00",
+  "updated_at": "2026-11-10T11:18:11.881496+08:00",
   "forecast": [
     {
-      "start_time": "2026-11-10 06:00:00",
+      "start_time": "2026-11-10 12:00:00",
       "end_time": "2026-11-10 18:00:00",
-      "weather_phenomenon": "多雲短暫雨",
-      "weather_code": "8",
-      "rain_probability": "30",
-      "min_temp": "17",
+      "weather_phenomenon": "多雲時陰",
+      "weather_code": "5",
+      "rain_probability": "10",
+      "min_temp": "20",
       "max_temp": "22",
       "comfort_index": "稍有寒意至舒適"
     },
@@ -19,7 +19,7 @@
       "weather_code": "2",
       "rain_probability": "20",
       "min_temp": "18",
-      "max_temp": "19",
+      "max_temp": "20",
       "comfort_index": "稍有寒意"
     },
     {
