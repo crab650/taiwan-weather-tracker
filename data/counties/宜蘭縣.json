@@ -1,36 +1,36 @@
 {
   "location": "宜蘭縣",
-  "updated_at": "2026-11-11T16:18:10.392794+08:00",
+  "updated_at": "2026-11-11T17:18:10.281466+08:00",
   "forecast": [
-    {
-      "start_time": "2026-11-11 12:00:00",
-      "end_time": "2026-11-11 18:00:00",
-      "weather_phenomenon": "陰短暫雨",
-      "weather_code": "11",
-      "rain_probability": "60",
-      "min_temp": "21",
-      "max_temp": "22",
-      "comfort_index": "舒適"
-    },
     {
       "start_time": "2026-11-11 18:00:00",
       "end_time": "2026-11-12 06:00:00",
       "weather_phenomenon": "陰短暫雨",
       "weather_code": "11",
-      "rain_probability": "40",
-      "min_temp": "19",
+      "rain_probability": "60",
+      "min_temp": "20",
       "max_temp": "21",
-      "comfort_index": "稍有寒意至舒適"
+      "comfort_index": "舒適"
     },
     {
       "start_time": "2026-11-12 06:00:00",
       "end_time": "2026-11-12 18:00:00",
-      "weather_phenomenon": "多雲時陰",
-      "weather_code": "5",
-      "rain_probability": "20",
-      "min_temp": "19",
+      "weather_phenomenon": "陰時多雲",
+      "weather_code": "6",
+      "rain_probability": "10",
+      "min_temp": "20",
       "max_temp": "26",
-      "comfort_index": "稍有寒意至舒適"
+      "comfort_index": "舒適"
+    },
+    {
+      "start_time": "2026-11-12 18:00:00",
+      "end_time": "2026-11-13 06:00:00",
+      "weather_phenomenon": "陰短暫雨",
+      "weather_code": "11",
+      "rain_probability": "30",
+      "min_temp": "21",
+      "max_temp": "23",
+      "comfort_index": "舒適"
     }
   ]
 }
