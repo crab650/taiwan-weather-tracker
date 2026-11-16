@@ -1,15 +1,15 @@
 {
   "location": "臺南市",
-  "updated_at": "2026-11-16T10:18:10.065602+08:00",
+  "updated_at": "2026-11-16T11:18:09.763223+08:00",
   "forecast": [
     {
-      "start_time": "2026-11-16 06:00:00",
+      "start_time": "2026-11-16 12:00:00",
       "end_time": "2026-11-16 18:00:00",
       "weather_phenomenon": "晴時多雲",
       "weather_code": "2",
-      "rain_probability": "10",
-      "min_temp": "22",
-      "max_temp": "27",
+      "rain_probability": "0",
+      "min_temp": "25",
+      "max_temp": "28",
       "comfort_index": "舒適"
     },
     {
@@ -17,9 +17,9 @@
       "end_time": "2026-11-17 06:00:00",
       "weather_phenomenon": "晴時多雲",
       "weather_code": "2",
-      "rain_probability": "10",
-      "min_temp": "21",
-      "max_temp": "24",
+      "rain_probability": "0",
+      "min_temp": "22",
+      "max_temp": "25",
       "comfort_index": "舒適"
     },
     {
@@ -28,8 +28,8 @@
       "weather_phenomenon": "晴時多雲",
       "weather_code": "2",
       "rain_probability": "0",
-      "min_temp": "21",
-      "max_temp": "27",
+      "min_temp": "22",
+      "max_temp": "28",
       "comfort_index": "舒適"
     }
   ]
