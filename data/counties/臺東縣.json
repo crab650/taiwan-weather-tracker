@@ -1,9 +1,9 @@
 {
   "location": "臺東縣",
-  "updated_at": "2026-11-19T10:18:09.061885+08:00",
+  "updated_at": "2026-11-19T11:18:10.269593+08:00",
   "forecast": [
     {
-      "start_time": "2026-11-19 06:00:00",
+      "start_time": "2026-11-19 12:00:00",
       "end_time": "2026-11-19 18:00:00",
       "weather_phenomenon": "陰天",
       "weather_code": "7",
