@@ -1,9 +1,9 @@
 {
   "location": "臺東縣",
-  "updated_at": "2026-11-20T10:18:09.237216+08:00",
+  "updated_at": "2026-11-20T11:18:10.196105+08:00",
   "forecast": [
     {
-      "start_time": "2026-11-20 06:00:00",
+      "start_time": "2026-11-20 12:00:00",
       "end_time": "2026-11-20 18:00:00",
       "weather_phenomenon": "陰天",
       "weather_code": "7",
@@ -29,7 +29,7 @@
       "weather_code": "7",
       "rain_probability": "10",
       "min_temp": "17",
-      "max_temp": "23",
+      "max_temp": "22",
       "comfort_index": "稍有寒意至舒適"
     }
   ]
