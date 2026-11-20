@@ -1,16 +1,16 @@
 {
   "dataset_id": "F-C0032-001",
   "title": "台灣今明36小時天氣預報",
-  "updated_at": "2026-11-20T17:18:09.506845+08:00",
+  "updated_at": "2026-11-20T18:18:09.860001+08:00",
   "location_count": 22,
   "locations": {
     "嘉義縣": [
       {
         "start_time": "2026-11-20 18:00:00",
         "end_time": "2026-11-21 06:00:00",
-        "weather_phenomenon": "陰天",
-        "weather_code": "7",
-        "rain_probability": "20",
+        "weather_phenomenon": "陰短暫雨",
+        "weather_code": "11",
+        "rain_probability": "30",
         "min_temp": "16",
         "max_temp": "18",
         "comfort_index": "稍有寒意"
@@ -20,7 +20,7 @@
         "end_time": "2026-11-21 18:00:00",
         "weather_phenomenon": "晴時多雲",
         "weather_code": "2",
-        "rain_probability": "20",
+        "rain_probability": "10",
         "min_temp": "16",
         "max_temp": "23",
         "comfort_index": "稍有寒意至舒適"
@@ -40,9 +40,9 @@
       {
         "start_time": "2026-11-20 18:00:00",
         "end_time": "2026-11-21 06:00:00",
-        "weather_phenomenon": "陰時多雲",
-        "weather_code": "6",
-        "rain_probability": "20",
+        "weather_phenomenon": "陰時多雲短暫雨",
+        "weather_code": "10",
+        "rain_probability": "30",
         "min_temp": "14",
         "max_temp": "15",
         "comfort_index": "寒冷"
@@ -52,7 +52,7 @@
         "end_time": "2026-11-21 18:00:00",
         "weather_phenomenon": "晴時多雲",
         "weather_code": "2",
-        "rain_probability": "10",
+        "rain_probability": "0",
         "min_temp": "14",
         "max_temp": "20",
         "comfort_index": "寒冷至稍有寒意"
@@ -72,9 +72,9 @@
       {
         "start_time": "2026-11-20 18:00:00",
         "end_time": "2026-11-21 06:00:00",
-        "weather_phenomenon": "陰天",
-        "weather_code": "7",
-        "rain_probability": "20",
+        "weather_phenomenon": "陰短暫雨",
+        "weather_code": "11",
+        "rain_probability": "30",
         "min_temp": "16",
         "max_temp": "18",
         "comfort_index": "寒冷至稍有寒意"
@@ -84,7 +84,7 @@
         "end_time": "2026-11-21 18:00:00",
         "weather_phenomenon": "晴時多雲",
         "weather_code": "2",
-        "rain_probability": "20",
+        "rain_probability": "10",
         "min_temp": "16",
         "max_temp": "23",
         "comfort_index": "寒冷至舒適"
@@ -104,9 +104,9 @@
       {
         "start_time": "2026-11-20 18:00:00",
         "end_time": "2026-11-21 06:00:00",
-        "weather_phenomenon": "陰時多雲",
-        "weather_code": "6",
-        "rain_probability": "20",
+        "weather_phenomenon": "陰時多雲短暫雨",
+        "weather_code": "10",
+        "rain_probability": "30",
         "min_temp": "14",
         "max_temp": "16",
         "comfort_index": "寒冷"
@@ -116,7 +116,7 @@
         "end_time": "2026-11-21 18:00:00",
         "weather_phenomenon": "晴時多雲",
         "weather_code": "2",
-        "rain_probability": "10",
+        "rain_probability": "0",
         "min_temp": "14",
         "max_temp": "21",
         "comfort_index": "寒冷至稍有寒意"
@@ -136,9 +136,9 @@
       {
         "start_time": "2026-11-20 18:00:00",
         "end_time": "2026-11-21 06:00:00",
-        "weather_phenomenon": "陰時多雲",
-        "weather_code": "6",
-        "rain_probability": "20",
+        "weather_phenomenon": "陰時多雲短暫雨",
+        "weather_code": "10",
+        "rain_probability": "30",
         "min_temp": "14",
         "max_temp": "16",
         "comfort_index": "寒冷至稍有寒意"
@@ -148,7 +148,7 @@
         "end_time": "2026-11-21 18:00:00",
         "weather_phenomenon": "晴時多雲",
         "weather_code": "2",
-        "rain_probability": "10",
+        "rain_probability": "0",
         "min_temp": "14",
         "max_temp": "21",
         "comfort_index": "寒冷至稍有寒意"
@@ -168,9 +168,9 @@
       {
         "start_time": "2026-11-20 18:00:00",
         "end_time": "2026-11-21 06:00:00",
-        "weather_phenomenon": "陰時多雲",
-        "weather_code": "6",
-        "rain_probability": "20",
+        "weather_phenomenon": "陰時多雲短暫雨",
+        "weather_code": "10",
+        "rain_probability": "30",
         "min_temp": "14",
         "max_temp": "16",
         "comfort_index": "寒冷"
@@ -180,7 +180,7 @@
         "end_time": "2026-11-21 18:00:00",
         "weather_phenomenon": "晴時多雲",
         "weather_code": "2",
-        "rain_probability": "10",
+        "rain_probability": "0",
         "min_temp": "14",
         "max_temp": "20",
         "comfort_index": "寒冷至稍有寒意"
@@ -200,9 +200,9 @@
       {
         "start_time": "2026-11-20 18:00:00",
         "end_time": "2026-11-21 06:00:00",
-        "weather_phenomenon": "陰天",
-        "weather_code": "7",
-        "rain_probability": "20",
+        "weather_phenomenon": "陰短暫雨",
+        "weather_code": "11",
+        "rain_probability": "30",
         "min_temp": "17",
         "max_temp": "20",
         "comfort_index": "稍有寒意"
@@ -223,9 +223,9 @@
         "weather_phenomenon": "晴時多雲",
         "weather_code": "2",
         "rain_probability": "0",
-        "min_temp": "15",
+        "min_temp": "16",
         "max_temp": "20",
-        "comfort_index": "寒冷至稍有寒意"
+        "comfort_index": "稍有寒意"
       }
     ],
     "宜蘭縣": [
@@ -244,7 +244,7 @@
         "end_time": "2026-11-21 18:00:00",
         "weather_phenomenon": "多雲時陰",
         "weather_code": "5",
-        "rain_probability": "10",
+        "rain_probability": "0",
         "min_temp": "13",
         "max_temp": "19",
         "comfort_index": "寒冷至稍有寒意"
@@ -254,7 +254,7 @@
         "end_time": "2026-11-22 06:00:00",
         "weather_phenomenon": "多雲時晴",
         "weather_code": "3",
-        "rain_probability": "0",
+        "rain_probability": "10",
         "min_temp": "12",
         "max_temp": "15",
         "comfort_index": "寒冷"
@@ -264,9 +264,9 @@
       {
         "start_time": "2026-11-20 18:00:00",
         "end_time": "2026-11-21 06:00:00",
-        "weather_phenomenon": "陰天",
-        "weather_code": "7",
-        "rain_probability": "20",
+        "weather_phenomenon": "陰短暫雨",
+        "weather_code": "11",
+        "rain_probability": "30",
         "min_temp": "13",
         "max_temp": "16",
         "comfort_index": "寒冷"
@@ -276,7 +276,7 @@
         "end_time": "2026-11-21 18:00:00",
         "weather_phenomenon": "晴時多雲",
         "weather_code": "2",
-        "rain_probability": "10",
+        "rain_probability": "0",
         "min_temp": "13",
         "max_temp": "21",
         "comfort_index": "寒冷至稍有寒意"
@@ -296,9 +296,9 @@
       {
         "start_time": "2026-11-20 18:00:00",
         "end_time": "2026-11-21 06:00:00",
-        "weather_phenomenon": "陰天",
-        "weather_code": "7",
-        "rain_probability": "20",
+        "weather_phenomenon": "陰短暫雨",
+        "weather_code": "11",
+        "rain_probability": "30",
         "min_temp": "16",
         "max_temp": "17",
         "comfort_index": "寒冷至稍有寒意"
@@ -308,7 +308,7 @@
         "end_time": "2026-11-21 18:00:00",
         "weather_phenomenon": "晴時多雲",
         "weather_code": "2",
-        "rain_probability": "20",
+        "rain_probability": "10",
         "min_temp": "16",
         "max_temp": "23",
         "comfort_index": "寒冷至舒適"
@@ -350,7 +350,7 @@
         "end_time": "2026-11-22 06:00:00",
         "weather_phenomenon": "晴時多雲",
         "weather_code": "2",
-        "rain_probability": "0",
+        "rain_probability": "10",
         "min_temp": "15",
         "max_temp": "17",
         "comfort_index": "寒冷至稍有寒意"
@@ -360,9 +360,9 @@
       {
         "start_time": "2026-11-20 18:00:00",
         "end_time": "2026-11-21 06:00:00",
-        "weather_phenomenon": "陰天",
-        "weather_code": "7",
-        "rain_probability": "20",
+        "weather_phenomenon": "陰短暫雨",
+        "weather_code": "11",
+        "rain_probability": "30",
         "min_temp": "16",
         "max_temp": "18",
         "comfort_index": "寒冷至稍有寒意"
@@ -372,7 +372,7 @@
         "end_time": "2026-11-21 18:00:00",
         "weather_phenomenon": "晴時多雲",
         "weather_code": "2",
-        "rain_probability": "20",
+        "rain_probability": "10",
         "min_temp": "16",
         "max_temp": "23",
         "comfort_index": "寒冷至舒適"
@@ -404,7 +404,7 @@
         "end_time": "2026-11-21 18:00:00",
         "weather_phenomenon": "陰天",
         "weather_code": "7",
-        "rain_probability": "10",
+        "rain_probability": "20",
         "min_temp": "17",
         "max_temp": "22",
         "comfort_index": "稍有寒意至舒適"
@@ -415,7 +415,7 @@
         "weather_phenomenon": "陰時多雲",
         "weather_code": "6",
         "rain_probability": "10",
-        "min_temp": "16",
+        "min_temp": "17",
         "max_temp": "19",
         "comfort_index": "稍有寒意"
       }
@@ -424,9 +424,9 @@
       {
         "start_time": "2026-11-20 18:00:00",
         "end_time": "2026-11-21 06:00:00",
-        "weather_phenomenon": "陰時多雲",
-        "weather_code": "6",
-        "rain_probability": "20",
+        "weather_phenomenon": "陰時多雲短暫雨",
+        "weather_code": "10",
+        "rain_probability": "30",
         "min_temp": "13",
         "max_temp": "15",
         "comfort_index": "寒冷"
@@ -436,7 +436,7 @@
         "end_time": "2026-11-21 18:00:00",
         "weather_phenomenon": "晴時多雲",
         "weather_code": "2",
-        "rain_probability": "10",
+        "rain_probability": "0",
         "min_temp": "13",
         "max_temp": "20",
         "comfort_index": "寒冷至稍有寒意"
@@ -468,7 +468,7 @@
         "end_time": "2026-11-21 18:00:00",
         "weather_phenomenon": "晴時多雲",
         "weather_code": "2",
-        "rain_probability": "20",
+        "rain_probability": "10",
         "min_temp": "16",
         "max_temp": "23",
         "comfort_index": "稍有寒意至舒適"
@@ -511,8 +511,8 @@
         "weather_phenomenon": "晴時多雲",
         "weather_code": "2",
         "rain_probability": "0",
-        "min_temp": "18",
-        "max_temp": "22",
+        "min_temp": "19",
+        "max_temp": "23",
         "comfort_index": "稍有寒意至舒適"
       }
     ],
@@ -532,7 +532,7 @@
         "end_time": "2026-11-21 18:00:00",
         "weather_phenomenon": "晴時多雲",
         "weather_code": "2",
-        "rain_probability": "10",
+        "rain_probability": "0",
         "min_temp": "15",
         "max_temp": "21",
         "comfort_index": "寒冷至稍有寒意"
@@ -575,8 +575,8 @@
         "weather_phenomenon": "多雲",
         "weather_code": "4",
         "rain_probability": "0",
-        "min_temp": "16",
-        "max_temp": "21",
+        "min_temp": "17",
+        "max_temp": "22",
         "comfort_index": "稍有寒意至舒適"
       }
     ],
@@ -584,9 +584,9 @@
       {
         "start_time": "2026-11-20 18:00:00",
         "end_time": "2026-11-21 06:00:00",
-        "weather_phenomenon": "陰時多雲",
-        "weather_code": "6",
-        "rain_probability": "20",
+        "weather_phenomenon": "陰時多雲短暫雨",
+        "weather_code": "10",
+        "rain_probability": "30",
         "min_temp": "15",
         "max_temp": "17",
         "comfort_index": "寒冷至稍有寒意"
@@ -596,7 +596,7 @@
         "end_time": "2026-11-21 18:00:00",
         "weather_phenomenon": "多雲",
         "weather_code": "4",
-        "rain_probability": "10",
+        "rain_probability": "0",
         "min_temp": "15",
         "max_temp": "19",
         "comfort_index": "寒冷至稍有寒意"
@@ -616,9 +616,9 @@
       {
         "start_time": "2026-11-20 18:00:00",
         "end_time": "2026-11-21 06:00:00",
-        "weather_phenomenon": "陰天",
-        "weather_code": "7",
-        "rain_probability": "20",
+        "weather_phenomenon": "陰短暫雨",
+        "weather_code": "11",
+        "rain_probability": "30",
         "min_temp": "19",
         "max_temp": "20",
         "comfort_index": "稍有寒意"
@@ -648,9 +648,9 @@
       {
         "start_time": "2026-11-20 18:00:00",
         "end_time": "2026-11-21 06:00:00",
-        "weather_phenomenon": "陰天",
-        "weather_code": "7",
-        "rain_probability": "20",
+        "weather_phenomenon": "陰短暫雨",
+        "weather_code": "11",
+        "rain_probability": "30",
         "min_temp": "16",
         "max_temp": "18",
         "comfort_index": "稍有寒意"
@@ -660,7 +660,7 @@
         "end_time": "2026-11-21 18:00:00",
         "weather_phenomenon": "晴時多雲",
         "weather_code": "2",
-        "rain_probability": "20",
+        "rain_probability": "10",
         "min_temp": "16",
         "max_temp": "23",
         "comfort_index": "稍有寒意至舒適"

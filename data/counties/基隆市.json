@@ -1,13 +1,13 @@
 {
   "location": "基隆市",
-  "updated_at": "2026-11-20T17:18:09.506845+08:00",
+  "updated_at": "2026-11-20T18:18:09.860001+08:00",
   "forecast": [
     {
       "start_time": "2026-11-20 18:00:00",
       "end_time": "2026-11-21 06:00:00",
-      "weather_phenomenon": "陰時多雲",
-      "weather_code": "6",
-      "rain_probability": "20",
+      "weather_phenomenon": "陰時多雲短暫雨",
+      "weather_code": "10",
+      "rain_probability": "30",
       "min_temp": "15",
       "max_temp": "17",
       "comfort_index": "寒冷至稍有寒意"
@@ -17,7 +17,7 @@
       "end_time": "2026-11-21 18:00:00",
       "weather_phenomenon": "多雲",
       "weather_code": "4",
-      "rain_probability": "10",
+      "rain_probability": "0",
       "min_temp": "15",
       "max_temp": "19",
       "comfort_index": "寒冷至稍有寒意"
