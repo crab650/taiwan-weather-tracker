@@ -1,9 +1,9 @@
 {
   "location": "基隆市",
-  "updated_at": "2026-11-21T22:18:08.914672+08:00",
+  "updated_at": "2026-11-21T23:18:09.865032+08:00",
   "forecast": [
     {
-      "start_time": "2026-11-21 18:00:00",
+      "start_time": "2026-11-22 00:00:00",
       "end_time": "2026-11-22 06:00:00",
       "weather_phenomenon": "多雲",
       "weather_code": "4",
