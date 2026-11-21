@@ -1,26 +1,16 @@
 {
   "location": "花蓮縣",
-  "updated_at": "2026-11-21T16:18:09.574544+08:00",
+  "updated_at": "2026-11-21T17:18:08.924861+08:00",
   "forecast": [
-    {
-      "start_time": "2026-11-21 12:00:00",
-      "end_time": "2026-11-21 18:00:00",
-      "weather_phenomenon": "陰天",
-      "weather_code": "7",
-      "rain_probability": "20",
-      "min_temp": "18",
-      "max_temp": "20",
-      "comfort_index": "稍有寒意"
-    },
     {
       "start_time": "2026-11-21 18:00:00",
       "end_time": "2026-11-22 06:00:00",
       "weather_phenomenon": "多雲時陰",
       "weather_code": "5",
       "rain_probability": "20",
-      "min_temp": "15",
+      "min_temp": "16",
       "max_temp": "18",
-      "comfort_index": "寒冷至稍有寒意"
+      "comfort_index": "稍有寒意"
     },
     {
       "start_time": "2026-11-22 06:00:00",
@@ -28,9 +18,19 @@
       "weather_phenomenon": "多雲時晴",
       "weather_code": "3",
       "rain_probability": "10",
-      "min_temp": "15",
+      "min_temp": "16",
       "max_temp": "22",
-      "comfort_index": "寒冷至舒適"
+      "comfort_index": "稍有寒意至舒適"
+    },
+    {
+      "start_time": "2026-11-22 18:00:00",
+      "end_time": "2026-11-23 06:00:00",
+      "weather_phenomenon": "多雲時晴",
+      "weather_code": "3",
+      "rain_probability": "20",
+      "min_temp": "18",
+      "max_temp": "20",
+      "comfort_index": "稍有寒意"
     }
   ]
 }
