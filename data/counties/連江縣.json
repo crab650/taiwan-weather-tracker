@@ -1,16 +1,16 @@
 {
   "location": "連江縣",
-  "updated_at": "2026-11-24T22:18:08.362489+08:00",
+  "updated_at": "2026-11-24T23:18:11.445064+08:00",
   "forecast": [
     {
-      "start_time": "2026-11-24 18:00:00",
+      "start_time": "2026-11-25 00:00:00",
       "end_time": "2026-11-25 06:00:00",
-      "weather_phenomenon": "多雲時陰",
-      "weather_code": "5",
+      "weather_phenomenon": "多雲",
+      "weather_code": "4",
       "rain_probability": "20",
       "min_temp": "14",
-      "max_temp": "17",
-      "comfort_index": "寒冷至稍有寒意"
+      "max_temp": "16",
+      "comfort_index": "寒冷"
     },
     {
       "start_time": "2026-11-25 06:00:00",
