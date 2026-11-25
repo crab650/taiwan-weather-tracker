@@ -1,9 +1,9 @@
 {
   "location": "金門縣",
-  "updated_at": "2026-11-25T22:18:08.649138+08:00",
+  "updated_at": "2026-11-25T23:18:10.729102+08:00",
   "forecast": [
     {
-      "start_time": "2026-11-25 18:00:00",
+      "start_time": "2026-11-26 00:00:00",
       "end_time": "2026-11-26 06:00:00",
       "weather_phenomenon": "多雲短暫雨",
       "weather_code": "8",
@@ -17,7 +17,7 @@
       "end_time": "2026-11-26 18:00:00",
       "weather_phenomenon": "多雲短暫雨",
       "weather_code": "8",
-      "rain_probability": "30",
+      "rain_probability": "40",
       "min_temp": "15",
       "max_temp": "20",
       "comfort_index": "寒冷至稍有寒意"
