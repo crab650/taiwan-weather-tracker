@@ -1,24 +1,14 @@
 {
   "location": "新竹市",
-  "updated_at": "2026-11-27T16:18:10.484206+08:00",
+  "updated_at": "2026-11-27T17:18:08.753385+08:00",
   "forecast": [
-    {
-      "start_time": "2026-11-27 12:00:00",
-      "end_time": "2026-11-27 18:00:00",
-      "weather_phenomenon": "晴時多雲",
-      "weather_code": "2",
-      "rain_probability": "10",
-      "min_temp": "21",
-      "max_temp": "24",
-      "comfort_index": "舒適"
-    },
     {
       "start_time": "2026-11-27 18:00:00",
       "end_time": "2026-11-28 06:00:00",
       "weather_phenomenon": "晴時多雲",
       "weather_code": "2",
       "rain_probability": "10",
-      "min_temp": "18",
+      "min_temp": "19",
       "max_temp": "21",
       "comfort_index": "稍有寒意至舒適"
     },
@@ -28,9 +18,19 @@
       "weather_phenomenon": "晴時多雲",
       "weather_code": "2",
       "rain_probability": "0",
-      "min_temp": "18",
+      "min_temp": "19",
       "max_temp": "23",
       "comfort_index": "稍有寒意至舒適"
+    },
+    {
+      "start_time": "2026-11-28 18:00:00",
+      "end_time": "2026-11-29 06:00:00",
+      "weather_phenomenon": "晴時多雲",
+      "weather_code": "2",
+      "rain_probability": "0",
+      "min_temp": "16",
+      "max_temp": "19",
+      "comfort_index": "稍有寒意"
     }
   ]
 }
