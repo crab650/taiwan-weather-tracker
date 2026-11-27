@@ -1,35 +1,35 @@
 {
   "dataset_id": "F-C0032-001",
   "title": "台灣今明36小時天氣預報",
-  "updated_at": "2026-11-27T10:18:11.328231+08:00",
+  "updated_at": "2026-11-27T11:18:12.113908+08:00",
   "location_count": 22,
   "locations": {
     "嘉義縣": [
       {
-        "start_time": "2026-11-27 06:00:00",
+        "start_time": "2026-11-27 12:00:00",
         "end_time": "2026-11-27 18:00:00",
-        "weather_phenomenon": "多雲時晴",
-        "weather_code": "3",
-        "rain_probability": "20",
-        "min_temp": "19",
+        "weather_phenomenon": "晴時多雲",
+        "weather_code": "2",
+        "rain_probability": "0",
+        "min_temp": "24",
         "max_temp": "27",
-        "comfort_index": "稍有寒意至舒適"
+        "comfort_index": "舒適"
       },
       {
         "start_time": "2026-11-27 18:00:00",
         "end_time": "2026-11-28 06:00:00",
-        "weather_phenomenon": "陰時多雲",
-        "weather_code": "6",
+        "weather_phenomenon": "晴時多雲",
+        "weather_code": "2",
         "rain_probability": "0",
         "min_temp": "20",
-        "max_temp": "23",
-        "comfort_index": "舒適"
+        "max_temp": "24",
+        "comfort_index": "稍有寒意至舒適"
       },
       {
         "start_time": "2026-11-28 06:00:00",
         "end_time": "2026-11-28 18:00:00",
-        "weather_phenomenon": "多雲時陰",
-        "weather_code": "5",
+        "weather_phenomenon": "晴時多雲",
+        "weather_code": "2",
         "rain_probability": "0",
         "min_temp": "20",
         "max_temp": "26",
@@ -38,20 +38,20 @@
     ],
     "新北市": [
       {
-        "start_time": "2026-11-27 06:00:00",
+        "start_time": "2026-11-27 12:00:00",
         "end_time": "2026-11-27 18:00:00",
-        "weather_phenomenon": "多雲時陰",
-        "weather_code": "5",
+        "weather_phenomenon": "晴時多雲",
+        "weather_code": "2",
         "rain_probability": "10",
-        "min_temp": "19",
+        "min_temp": "21",
         "max_temp": "25",
-        "comfort_index": "稍有寒意至舒適"
+        "comfort_index": "舒適"
       },
       {
         "start_time": "2026-11-27 18:00:00",
         "end_time": "2026-11-28 06:00:00",
-        "weather_phenomenon": "多雲時陰",
-        "weather_code": "5",
+        "weather_phenomenon": "多雲時晴",
+        "weather_code": "3",
         "rain_probability": "10",
         "min_temp": "19",
         "max_temp": "21",
@@ -70,119 +70,119 @@
     ],
     "嘉義市": [
       {
-        "start_time": "2026-11-27 06:00:00",
+        "start_time": "2026-11-27 12:00:00",
         "end_time": "2026-11-27 18:00:00",
-        "weather_phenomenon": "多雲時晴",
-        "weather_code": "3",
-        "rain_probability": "20",
-        "min_temp": "19",
-        "max_temp": "27",
-        "comfort_index": "稍有寒意至舒適"
+        "weather_phenomenon": "晴時多雲",
+        "weather_code": "2",
+        "rain_probability": "0",
+        "min_temp": "24",
+        "max_temp": "28",
+        "comfort_index": "舒適"
       },
       {
         "start_time": "2026-11-27 18:00:00",
         "end_time": "2026-11-28 06:00:00",
-        "weather_phenomenon": "陰時多雲",
-        "weather_code": "6",
+        "weather_phenomenon": "晴時多雲",
+        "weather_code": "2",
         "rain_probability": "0",
-        "min_temp": "20",
-        "max_temp": "23",
+        "min_temp": "19",
+        "max_temp": "24",
         "comfort_index": "稍有寒意至舒適"
       },
       {
         "start_time": "2026-11-28 06:00:00",
         "end_time": "2026-11-28 18:00:00",
-        "weather_phenomenon": "陰時多雲",
-        "weather_code": "6",
+        "weather_phenomenon": "晴時多雲",
+        "weather_code": "2",
         "rain_probability": "0",
-        "min_temp": "20",
+        "min_temp": "19",
         "max_temp": "26",
         "comfort_index": "稍有寒意至舒適"
       }
     ],
     "新竹縣": [
       {
-        "start_time": "2026-11-27 06:00:00",
+        "start_time": "2026-11-27 12:00:00",
         "end_time": "2026-11-27 18:00:00",
         "weather_phenomenon": "晴時多雲",
         "weather_code": "2",
         "rain_probability": "10",
-        "min_temp": "19",
+        "min_temp": "21",
         "max_temp": "25",
-        "comfort_index": "稍有寒意至舒適"
+        "comfort_index": "舒適"
       },
       {
         "start_time": "2026-11-27 18:00:00",
         "end_time": "2026-11-28 06:00:00",
-        "weather_phenomenon": "多雲時晴",
-        "weather_code": "3",
+        "weather_phenomenon": "晴時多雲",
+        "weather_code": "2",
         "rain_probability": "10",
-        "min_temp": "19",
+        "min_temp": "18",
         "max_temp": "21",
         "comfort_index": "稍有寒意至舒適"
       },
       {
         "start_time": "2026-11-28 06:00:00",
         "end_time": "2026-11-28 18:00:00",
-        "weather_phenomenon": "多雲時晴",
-        "weather_code": "3",
-        "rain_probability": "10",
-        "min_temp": "19",
+        "weather_phenomenon": "晴時多雲",
+        "weather_code": "2",
+        "rain_probability": "0",
+        "min_temp": "18",
         "max_temp": "24",
         "comfort_index": "稍有寒意至舒適"
       }
     ],
     "新竹市": [
       {
-        "start_time": "2026-11-27 06:00:00",
+        "start_time": "2026-11-27 12:00:00",
         "end_time": "2026-11-27 18:00:00",
         "weather_phenomenon": "晴時多雲",
         "weather_code": "2",
         "rain_probability": "10",
-        "min_temp": "19",
+        "min_temp": "21",
         "max_temp": "24",
-        "comfort_index": "稍有寒意至舒適"
+        "comfort_index": "舒適"
       },
       {
         "start_time": "2026-11-27 18:00:00",
         "end_time": "2026-11-28 06:00:00",
-        "weather_phenomenon": "陰時多雲",
-        "weather_code": "6",
+        "weather_phenomenon": "晴時多雲",
+        "weather_code": "2",
         "rain_probability": "10",
-        "min_temp": "19",
+        "min_temp": "18",
         "max_temp": "21",
         "comfort_index": "稍有寒意至舒適"
       },
       {
         "start_time": "2026-11-28 06:00:00",
         "end_time": "2026-11-28 18:00:00",
-        "weather_phenomenon": "多雲時晴",
-        "weather_code": "3",
-        "rain_probability": "10",
-        "min_temp": "19",
-        "max_temp": "24",
+        "weather_phenomenon": "晴時多雲",
+        "weather_code": "2",
+        "rain_probability": "0",
+        "min_temp": "18",
+        "max_temp": "23",
         "comfort_index": "稍有寒意至舒適"
       }
     ],
     "臺北市": [
       {
-        "start_time": "2026-11-27 06:00:00",
+        "start_time": "2026-11-27 12:00:00",
         "end_time": "2026-11-27 18:00:00",
         "weather_phenomenon": "多雲",
         "weather_code": "4",
         "rain_probability": "10",
-        "min_temp": "19",
-        "max_temp": "25",
-        "comfort_index": "稍有寒意至舒適"
+        "min_temp": "21",
+        "max_temp": "26",
+        "comfort_index": "舒適"
       },
       {
         "start_time": "2026-11-27 18:00:00",
         "end_time": "2026-11-28 06:00:00",
-        "weather_phenomenon": "陰時多雲",
-        "weather_code": "6",
-        "rain_probability": "20",
+        "weather_phenomenon": "多雲",
+        "weather_code": "4",
+        "rain_probability": "10",
         "min_temp": "19",
-        "max_temp": "22",
+        "max_temp": "21",
         "comfort_index": "稍有寒意至舒適"
       },
       {
@@ -198,20 +198,20 @@
     ],
     "臺南市": [
       {
-        "start_time": "2026-11-27 06:00:00",
+        "start_time": "2026-11-27 12:00:00",
         "end_time": "2026-11-27 18:00:00",
-        "weather_phenomenon": "多雲時陰",
-        "weather_code": "5",
-        "rain_probability": "20",
-        "min_temp": "20",
+        "weather_phenomenon": "晴時多雲",
+        "weather_code": "2",
+        "rain_probability": "0",
+        "min_temp": "24",
         "max_temp": "27",
         "comfort_index": "舒適"
       },
       {
         "start_time": "2026-11-27 18:00:00",
         "end_time": "2026-11-28 06:00:00",
-        "weather_phenomenon": "陰時多雲",
-        "weather_code": "6",
+        "weather_phenomenon": "晴時多雲",
+        "weather_code": "2",
         "rain_probability": "0",
         "min_temp": "21",
         "max_temp": "24",
@@ -220,8 +220,8 @@
       {
         "start_time": "2026-11-28 06:00:00",
         "end_time": "2026-11-28 18:00:00",
-        "weather_phenomenon": "陰天",
-        "weather_code": "7",
+        "weather_phenomenon": "晴時多雲",
+        "weather_code": "2",
         "rain_probability": "0",
         "min_temp": "21",
         "max_temp": "27",
@@ -230,20 +230,20 @@
     ],
     "宜蘭縣": [
       {
-        "start_time": "2026-11-27 06:00:00",
+        "start_time": "2026-11-27 12:00:00",
         "end_time": "2026-11-27 18:00:00",
-        "weather_phenomenon": "晴時多雲",
-        "weather_code": "2",
-        "rain_probability": "20",
-        "min_temp": "19",
+        "weather_phenomenon": "多雲",
+        "weather_code": "4",
+        "rain_probability": "10",
+        "min_temp": "22",
         "max_temp": "25",
-        "comfort_index": "稍有寒意至舒適"
+        "comfort_index": "舒適"
       },
       {
         "start_time": "2026-11-27 18:00:00",
         "end_time": "2026-11-28 06:00:00",
-        "weather_phenomenon": "陰天",
-        "weather_code": "7",
+        "weather_phenomenon": "多雲時陰",
+        "weather_code": "5",
         "rain_probability": "10",
         "min_temp": "19",
         "max_temp": "22",
@@ -252,8 +252,8 @@
       {
         "start_time": "2026-11-28 06:00:00",
         "end_time": "2026-11-28 18:00:00",
-        "weather_phenomenon": "多雲時晴",
-        "weather_code": "3",
+        "weather_phenomenon": "晴時多雲",
+        "weather_code": "2",
         "rain_probability": "10",
         "min_temp": "19",
         "max_temp": "24",
@@ -262,14 +262,14 @@
     ],
     "苗栗縣": [
       {
-        "start_time": "2026-11-27 06:00:00",
+        "start_time": "2026-11-27 12:00:00",
         "end_time": "2026-11-27 18:00:00",
-        "weather_phenomenon": "多雲時晴",
-        "weather_code": "3",
+        "weather_phenomenon": "晴時多雲",
+        "weather_code": "2",
         "rain_probability": "10",
-        "min_temp": "18",
+        "min_temp": "21",
         "max_temp": "25",
-        "comfort_index": "稍有寒意至舒適"
+        "comfort_index": "舒適"
       },
       {
         "start_time": "2026-11-27 18:00:00",
@@ -286,7 +286,7 @@
         "end_time": "2026-11-28 18:00:00",
         "weather_phenomenon": "晴時多雲",
         "weather_code": "2",
-        "rain_probability": "10",
+        "rain_probability": "0",
         "min_temp": "18",
         "max_temp": "24",
         "comfort_index": "稍有寒意至舒適"
@@ -294,20 +294,20 @@
     ],
     "雲林縣": [
       {
-        "start_time": "2026-11-27 06:00:00",
+        "start_time": "2026-11-27 12:00:00",
         "end_time": "2026-11-27 18:00:00",
-        "weather_phenomenon": "多雲",
-        "weather_code": "4",
-        "rain_probability": "20",
-        "min_temp": "19",
-        "max_temp": "26",
-        "comfort_index": "稍有寒意至舒適"
+        "weather_phenomenon": "晴時多雲",
+        "weather_code": "2",
+        "rain_probability": "0",
+        "min_temp": "23",
+        "max_temp": "27",
+        "comfort_index": "舒適"
       },
       {
         "start_time": "2026-11-27 18:00:00",
         "end_time": "2026-11-28 06:00:00",
-        "weather_phenomenon": "陰時多雲",
-        "weather_code": "6",
+        "weather_phenomenon": "晴時多雲",
+        "weather_code": "2",
         "rain_probability": "0",
         "min_temp": "20",
         "max_temp": "23",
@@ -316,8 +316,8 @@
       {
         "start_time": "2026-11-28 06:00:00",
         "end_time": "2026-11-28 18:00:00",
-        "weather_phenomenon": "多雲",
-        "weather_code": "4",
+        "weather_phenomenon": "晴時多雲",
+        "weather_code": "2",
         "rain_probability": "0",
         "min_temp": "20",
         "max_temp": "26",
@@ -326,20 +326,20 @@
     ],
     "花蓮縣": [
       {
-        "start_time": "2026-11-27 06:00:00",
+        "start_time": "2026-11-27 12:00:00",
         "end_time": "2026-11-27 18:00:00",
-        "weather_phenomenon": "多雲時陰",
-        "weather_code": "5",
+        "weather_phenomenon": "多雲",
+        "weather_code": "4",
         "rain_probability": "20",
-        "min_temp": "20",
+        "min_temp": "23",
         "max_temp": "25",
-        "comfort_index": "稍有寒意至舒適"
+        "comfort_index": "舒適"
       },
       {
         "start_time": "2026-11-27 18:00:00",
         "end_time": "2026-11-28 06:00:00",
-        "weather_phenomenon": "陰時多雲",
-        "weather_code": "6",
+        "weather_phenomenon": "多雲時陰",
+        "weather_code": "5",
         "rain_probability": "20",
         "min_temp": "20",
         "max_temp": "23",
@@ -350,22 +350,22 @@
         "end_time": "2026-11-28 18:00:00",
         "weather_phenomenon": "陰天",
         "weather_code": "7",
-        "rain_probability": "20",
+        "rain_probability": "10",
         "min_temp": "20",
-        "max_temp": "24",
+        "max_temp": "23",
         "comfort_index": "稍有寒意至舒適"
       }
     ],
     "臺中市": [
       {
-        "start_time": "2026-11-27 06:00:00",
+        "start_time": "2026-11-27 12:00:00",
         "end_time": "2026-11-27 18:00:00",
-        "weather_phenomenon": "晴時多雲",
-        "weather_code": "2",
-        "rain_probability": "10",
-        "min_temp": "20",
+        "weather_phenomenon": "多雲",
+        "weather_code": "4",
+        "rain_probability": "0",
+        "min_temp": "23",
         "max_temp": "27",
-        "comfort_index": "稍有寒意至舒適"
+        "comfort_index": "舒適"
       },
       {
         "start_time": "2026-11-27 18:00:00",
@@ -380,8 +380,8 @@
       {
         "start_time": "2026-11-28 06:00:00",
         "end_time": "2026-11-28 18:00:00",
-        "weather_phenomenon": "多雲時晴",
-        "weather_code": "3",
+        "weather_phenomenon": "晴時多雲",
+        "weather_code": "2",
         "rain_probability": "0",
         "min_temp": "20",
         "max_temp": "26",
@@ -390,20 +390,20 @@
     ],
     "臺東縣": [
       {
-        "start_time": "2026-11-27 06:00:00",
+        "start_time": "2026-11-27 12:00:00",
         "end_time": "2026-11-27 18:00:00",
-        "weather_phenomenon": "多雲",
-        "weather_code": "4",
+        "weather_phenomenon": "陰時多雲",
+        "weather_code": "6",
         "rain_probability": "20",
-        "min_temp": "21",
-        "max_temp": "27",
+        "min_temp": "24",
+        "max_temp": "26",
         "comfort_index": "舒適"
       },
       {
         "start_time": "2026-11-27 18:00:00",
         "end_time": "2026-11-28 06:00:00",
-        "weather_phenomenon": "陰天",
-        "weather_code": "7",
+        "weather_phenomenon": "陰時多雲",
+        "weather_code": "6",
         "rain_probability": "20",
         "min_temp": "22",
         "max_temp": "24",
@@ -414,7 +414,7 @@
         "end_time": "2026-11-28 18:00:00",
         "weather_phenomenon": "陰天",
         "weather_code": "7",
-        "rain_probability": "20",
+        "rain_probability": "10",
         "min_temp": "21",
         "max_temp": "25",
         "comfort_index": "舒適"
@@ -422,22 +422,22 @@
     ],
     "桃園市": [
       {
-        "start_time": "2026-11-27 06:00:00",
+        "start_time": "2026-11-27 12:00:00",
         "end_time": "2026-11-27 18:00:00",
-        "weather_phenomenon": "陰時多雲",
-        "weather_code": "6",
+        "weather_phenomenon": "多雲時晴",
+        "weather_code": "3",
         "rain_probability": "10",
-        "min_temp": "18",
+        "min_temp": "20",
         "max_temp": "24",
-        "comfort_index": "稍有寒意至舒適"
+        "comfort_index": "舒適"
       },
       {
         "start_time": "2026-11-27 18:00:00",
         "end_time": "2026-11-28 06:00:00",
-        "weather_phenomenon": "多雲時陰",
-        "weather_code": "5",
+        "weather_phenomenon": "多雲",
+        "weather_code": "4",
         "rain_probability": "10",
-        "min_temp": "19",
+        "min_temp": "18",
         "max_temp": "20",
         "comfort_index": "稍有寒意至舒適"
       },
@@ -446,28 +446,28 @@
         "end_time": "2026-11-28 18:00:00",
         "weather_phenomenon": "晴時多雲",
         "weather_code": "2",
-        "rain_probability": "10",
-        "min_temp": "19",
+        "rain_probability": "0",
+        "min_temp": "18",
         "max_temp": "23",
         "comfort_index": "稍有寒意至舒適"
       }
     ],
     "南投縣": [
       {
-        "start_time": "2026-11-27 06:00:00",
+        "start_time": "2026-11-27 12:00:00",
         "end_time": "2026-11-27 18:00:00",
-        "weather_phenomenon": "多雲時晴",
-        "weather_code": "3",
-        "rain_probability": "20",
-        "min_temp": "20",
+        "weather_phenomenon": "晴時多雲",
+        "weather_code": "2",
+        "rain_probability": "0",
+        "min_temp": "24",
         "max_temp": "27",
-        "comfort_index": "稍有寒意至舒適"
+        "comfort_index": "舒適"
       },
       {
         "start_time": "2026-11-27 18:00:00",
         "end_time": "2026-11-28 06:00:00",
-        "weather_phenomenon": "多雲時陰",
-        "weather_code": "5",
+        "weather_phenomenon": "晴時多雲",
+        "weather_code": "2",
         "rain_probability": "0",
         "min_temp": "20",
         "max_temp": "24",
@@ -476,8 +476,8 @@
       {
         "start_time": "2026-11-28 06:00:00",
         "end_time": "2026-11-28 18:00:00",
-        "weather_phenomenon": "多雲時晴",
-        "weather_code": "3",
+        "weather_phenomenon": "晴時多雲",
+        "weather_code": "2",
         "rain_probability": "0",
         "min_temp": "20",
         "max_temp": "26",
@@ -486,21 +486,21 @@
     ],
     "高雄市": [
       {
-        "start_time": "2026-11-27 06:00:00",
+        "start_time": "2026-11-27 12:00:00",
         "end_time": "2026-11-27 18:00:00",
-        "weather_phenomenon": "多雲時晴",
-        "weather_code": "3",
-        "rain_probability": "20",
-        "min_temp": "21",
-        "max_temp": "28",
+        "weather_phenomenon": "晴時多雲",
+        "weather_code": "2",
+        "rain_probability": "0",
+        "min_temp": "26",
+        "max_temp": "29",
         "comfort_index": "舒適"
       },
       {
         "start_time": "2026-11-27 18:00:00",
         "end_time": "2026-11-28 06:00:00",
-        "weather_phenomenon": "多雲時陰",
-        "weather_code": "5",
-        "rain_probability": "10",
+        "weather_phenomenon": "晴時多雲",
+        "weather_code": "2",
+        "rain_probability": "0",
         "min_temp": "22",
         "max_temp": "26",
         "comfort_index": "舒適"
@@ -508,8 +508,8 @@
       {
         "start_time": "2026-11-28 06:00:00",
         "end_time": "2026-11-28 18:00:00",
-        "weather_phenomenon": "陰天",
-        "weather_code": "7",
+        "weather_phenomenon": "多雲時晴",
+        "weather_code": "3",
         "rain_probability": "0",
         "min_temp": "22",
         "max_temp": "29",
@@ -518,12 +518,12 @@
     ],
     "金門縣": [
       {
-        "start_time": "2026-11-27 06:00:00",
+        "start_time": "2026-11-27 12:00:00",
         "end_time": "2026-11-27 18:00:00",
         "weather_phenomenon": "晴時多雲",
         "weather_code": "2",
-        "rain_probability": "10",
-        "min_temp": "17",
+        "rain_probability": "0",
+        "min_temp": "19",
         "max_temp": "22",
         "comfort_index": "稍有寒意至舒適"
       },
@@ -533,7 +533,7 @@
         "weather_phenomenon": "晴時多雲",
         "weather_code": "2",
         "rain_probability": "0",
-        "min_temp": "18",
+        "min_temp": "17",
         "max_temp": "19",
         "comfort_index": "稍有寒意"
       },
@@ -543,27 +543,27 @@
         "weather_phenomenon": "晴時多雲",
         "weather_code": "2",
         "rain_probability": "0",
-        "min_temp": "18",
+        "min_temp": "17",
         "max_temp": "24",
         "comfort_index": "稍有寒意至舒適"
       }
     ],
     "屏東縣": [
       {
-        "start_time": "2026-11-27 06:00:00",
+        "start_time": "2026-11-27 12:00:00",
         "end_time": "2026-11-27 18:00:00",
         "weather_phenomenon": "晴時多雲",
         "weather_code": "2",
-        "rain_probability": "20",
-        "min_temp": "21",
+        "rain_probability": "10",
+        "min_temp": "26",
         "max_temp": "29",
         "comfort_index": "舒適"
       },
       {
         "start_time": "2026-11-27 18:00:00",
         "end_time": "2026-11-28 06:00:00",
-        "weather_phenomenon": "陰時多雲",
-        "weather_code": "6",
+        "weather_phenomenon": "晴時多雲",
+        "weather_code": "2",
         "rain_probability": "0",
         "min_temp": "21",
         "max_temp": "26",
@@ -572,8 +572,8 @@
       {
         "start_time": "2026-11-28 06:00:00",
         "end_time": "2026-11-28 18:00:00",
-        "weather_phenomenon": "陰天",
-        "weather_code": "7",
+        "weather_phenomenon": "多雲時晴",
+        "weather_code": "3",
         "rain_probability": "0",
         "min_temp": "21",
         "max_temp": "28",
@@ -582,21 +582,21 @@
     ],
     "基隆市": [
       {
-        "start_time": "2026-11-27 06:00:00",
+        "start_time": "2026-11-27 12:00:00",
         "end_time": "2026-11-27 18:00:00",
-        "weather_phenomenon": "陰時多雲",
-        "weather_code": "6",
-        "rain_probability": "20",
-        "min_temp": "19",
+        "weather_phenomenon": "多雲",
+        "weather_code": "4",
+        "rain_probability": "10",
+        "min_temp": "21",
         "max_temp": "23",
-        "comfort_index": "稍有寒意至舒適"
+        "comfort_index": "舒適"
       },
       {
         "start_time": "2026-11-27 18:00:00",
         "end_time": "2026-11-28 06:00:00",
-        "weather_phenomenon": "陰天",
-        "weather_code": "7",
-        "rain_probability": "20",
+        "weather_phenomenon": "多雲",
+        "weather_code": "4",
+        "rain_probability": "10",
         "min_temp": "19",
         "max_temp": "21",
         "comfort_index": "稍有寒意至舒適"
@@ -604,8 +604,8 @@
       {
         "start_time": "2026-11-28 06:00:00",
         "end_time": "2026-11-28 18:00:00",
-        "weather_phenomenon": "多雲時晴",
-        "weather_code": "3",
+        "weather_phenomenon": "晴時多雲",
+        "weather_code": "2",
         "rain_probability": "10",
         "min_temp": "19",
         "max_temp": "22",
@@ -614,20 +614,20 @@
     ],
     "澎湖縣": [
       {
-        "start_time": "2026-11-27 06:00:00",
+        "start_time": "2026-11-27 12:00:00",
         "end_time": "2026-11-27 18:00:00",
         "weather_phenomenon": "晴時多雲",
         "weather_code": "2",
-        "rain_probability": "20",
-        "min_temp": "21",
-        "max_temp": "25",
+        "rain_probability": "0",
+        "min_temp": "22",
+        "max_temp": "24",
         "comfort_index": "舒適"
       },
       {
         "start_time": "2026-11-27 18:00:00",
         "end_time": "2026-11-28 06:00:00",
-        "weather_phenomenon": "多雲時晴",
-        "weather_code": "3",
+        "weather_phenomenon": "晴時多雲",
+        "weather_code": "2",
         "rain_probability": "0",
         "min_temp": "22",
         "max_temp": "22",
@@ -636,8 +636,8 @@
       {
         "start_time": "2026-11-28 06:00:00",
         "end_time": "2026-11-28 18:00:00",
-        "weather_phenomenon": "多雲時晴",
-        "weather_code": "3",
+        "weather_phenomenon": "晴時多雲",
+        "weather_code": "2",
         "rain_probability": "0",
         "min_temp": "21",
         "max_temp": "24",
@@ -646,14 +646,14 @@
     ],
     "彰化縣": [
       {
-        "start_time": "2026-11-27 06:00:00",
+        "start_time": "2026-11-27 12:00:00",
         "end_time": "2026-11-27 18:00:00",
-        "weather_phenomenon": "多雲時晴",
-        "weather_code": "3",
-        "rain_probability": "10",
-        "min_temp": "20",
+        "weather_phenomenon": "多雲",
+        "weather_code": "4",
+        "rain_probability": "0",
+        "min_temp": "23",
         "max_temp": "26",
-        "comfort_index": "稍有寒意至舒適"
+        "comfort_index": "舒適"
       },
       {
         "start_time": "2026-11-27 18:00:00",
@@ -663,7 +663,7 @@
         "rain_probability": "0",
         "min_temp": "20",
         "max_temp": "23",
-        "comfort_index": "舒適"
+        "comfort_index": "稍有寒意至舒適"
       },
       {
         "start_time": "2026-11-28 06:00:00",
@@ -678,12 +678,12 @@
     ],
     "連江縣": [
       {
-        "start_time": "2026-11-27 06:00:00",
+        "start_time": "2026-11-27 12:00:00",
         "end_time": "2026-11-27 18:00:00",
         "weather_phenomenon": "晴時多雲",
         "weather_code": "2",
-        "rain_probability": "10",
-        "min_temp": "16",
+        "rain_probability": "0",
+        "min_temp": "18",
         "max_temp": "20",
         "comfort_index": "稍有寒意"
       },
@@ -693,7 +693,7 @@
         "weather_phenomenon": "晴時多雲",
         "weather_code": "2",
         "rain_probability": "0",
-        "min_temp": "17",
+        "min_temp": "16",
         "max_temp": "18",
         "comfort_index": "稍有寒意"
       },
@@ -703,8 +703,8 @@
         "weather_phenomenon": "晴時多雲",
         "weather_code": "2",
         "rain_probability": "0",
-        "min_temp": "17",
-        "max_temp": "20",
+        "min_temp": "16",
+        "max_temp": "21",
         "comfort_index": "稍有寒意"
       }
     ]
